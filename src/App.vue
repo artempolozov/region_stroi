@@ -1,28 +1,46 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <router-view name="header"></router-view>
+    <div id="app-content">
+      <transition name="app-router-fade" mode="out-in">
+        <router-view :key="defaultViewKey"></router-view>
+      </transition>
+    </div>
+    <router-view name="slider"></router-view>
+    <router-view name="footer"></router-view>
   </div>
 </template>
-
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
-export default {
-  name: 'App',
-  components: {
-    HelloWorld
+  export default {
+    computed: {
+      defaultViewKey: function() {
+        return this.$route.name;
+      }
+    }
   }
-}
 </script>
-
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+  @font-face {
+    font-family: HelveticaNeue;
+    src: url('./assets/HelveticaNeue.ttf');
+  }
+
+  html, body {
+    background: #ebebeb;
+    height: 100%;
+  }
+  body {
+    margin: initial;
+    font-family: HelveticaNeue;
+  }
+
+  #app {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+  }
+  #app-content {
+    flex: 1 0 auto;
+    margin-top: 155px;
+  }
 </style>
