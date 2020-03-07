@@ -26,6 +26,22 @@ export default new Router({
             },
             children: [],
         },
+		{
+            path: '/88',
+            name: 'zalupka',
+            components: { 
+                header: Header,
+                footer: Footer,
+                slider: Slider,
+                //aside: Aside,
+                default: () => import('@/views/88.vue')
+            },
+            meta: {
+                title: 'Главная',
+                description: '',
+            },
+            children: [],
+        },
         {
             path: '/test',
             name: 'test',

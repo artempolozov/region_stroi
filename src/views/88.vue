@@ -1,6 +1,6 @@
 <template>
     <div class="views--home" style="height: 800px">
-       Текст 11111
+       Текст зуалупки
 
     </div>
 </template>
