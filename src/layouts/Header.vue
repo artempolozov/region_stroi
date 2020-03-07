@@ -52,6 +52,7 @@
         text-align: center;
         position: fixed;
         width: 100%;
+        z-index: 99;
     }
     .header-content {
         display: inline-block;
