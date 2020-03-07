@@ -39,8 +39,7 @@
 </script>
 <style scoped>
     .row > div {
-        display: inline-block;
-        vertical-align: middle;
+        align-self: center;
     }
 
     .row:nth-of-type(1) {
