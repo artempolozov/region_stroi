@@ -6,34 +6,33 @@
             </div>
         </div>
         <div class="row">
-            <div class="tile">
+            <div class="tile common">
                 <img src="@/assets/images/slider_2.jpg">
                 <span class="title">Забор из профлиста</span>
                 <span class="description">Наши услуги</span>
             </div>
-            <div class="tile">
+            <div class="tile common">
                 <img src="@/assets/images/slider_2.jpg">
                 <span class="title">Забор из профлиста</span>
                 <span class="description">Наши услуги</span>
             </div>
-            <div class="tile">
+            <div class="tile common">
                 <img src="@/assets/images/slider_2.jpg">
                 <span class="title">Забор из профлиста</span>
                 <span class="description">Наши услуги</span>
             </div>
         </div>
         <div class="row">
-            <div class="tile">
+            <div class="tile special">
+				<img src="@/assets/images/icon_worker.png">
+				<span class="description">Получить Бесплатную Консультацию</span>
+            </div>
+            <div class="tile common">
                 <img src="@/assets/images/slider_2.jpg">
                 <span class="title">Забор из профлиста</span>
                 <span class="description">Наши услуги</span>
             </div>
-            <div class="tile">
-                <img src="@/assets/images/slider_2.jpg">
-                <span class="title">Забор из профлиста</span>
-                <span class="description">Наши услуги</span>
-            </div>
-            <div class="tile">
+            <div class="tile common">
                 <img src="@/assets/images/slider_2.jpg">
                 <span class="title">Забор из профлиста</span>
                 <span class="description">Наши услуги</span>
@@ -75,7 +74,7 @@ export default {
         box-sizing: border-box;
     }
     .page-description > span {
-        font-weight: 600;
+        font-weight: bolder;
         font-size: 24px;
         text-transform: uppercase;
     }
@@ -85,23 +84,42 @@ export default {
         justify-content: space-between;
     }
     .tile {
-        width: 250px;
-        height: 220px;
-        border-top: 3px solid rgb(226, 28, 33);
-        background-color: white;
-        margin: 5px;
+        width: 306px;
+		height: 280px;
+        margin: 11px;
         padding: 20px;
         display: inline-block;
+		box-sizing: border-box;
     }
-    .tile img {
+	.tile:hover {
+		transform: scale(1.05);
+		cursor: pointer;
+	}
+	.tile.common {
+		border-top: 3px solid rgb(226, 28, 33);
+        background-color: white;
+	}
+    .tile.common img {
         width: 100%;
+    }
+	.tile.special img {
+        width: 70px;
     }
     .title {
         font-weight: bold;
         text-transform: uppercase;
         font-size: 14px;
     }
-    .description {
+    .tile.common .description {
         display: block;
     }
+	.tile.special .description {
+		display: inline-block;
+		color: white;
+		text-transform: uppercase;
+    }
+	.tile.special {
+		background-color: rgb(226, 28, 33);
+		padding: 30px;
+	}
 </style>
