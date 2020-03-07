@@ -3,7 +3,7 @@
         <div class="header-content">
             <div class="row">
                 <div class="logo"  v-on:click="goToHome">
-                    <img src="@/assets/logo.png">
+                    <img src="@/assets/images/logo_black.png">
                 </div>
                 <div class="desc">Монтаж и производство заборов "под ключ"</div>
                 <contacts></contacts>
@@ -59,7 +59,7 @@
     }
 
     .logo img {
-        height: 80px;
+        height: 70px;
     }
     .logo {
         padding: 0 15px;
