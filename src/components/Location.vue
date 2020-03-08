@@ -30,8 +30,10 @@
     }
     .info {
         text-align: left;
-        white-space: nowrap;
-        display: inline-block;
+        display: flex;
+        /* align-content: end; */
+        flex-flow: column;
+        margin: 2px auto;
     }
 
     .footer-content .info > div {
