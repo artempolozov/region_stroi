@@ -7,7 +7,7 @@
         </div>
         <div class="row">
             <div class="tile common">
-                <img src="@/assets/images/slider_2.jpg">
+                <img src="@/assets/images/proflist.jpg">
                 <span class="title">Забор из профлиста</span>
                 <span class="description">Наши услуги</span>
             </div>
@@ -92,7 +92,9 @@ export default {
 		box-sizing: border-box;
     }
 	.tile:hover {
-		transform: scale(1.05);
+		webkit-transform: scale(1.01);
+		ms-transform: scale(1.01);
+		transform: scale(1.01);
 		cursor: pointer;
 	}
 	.tile.common {
