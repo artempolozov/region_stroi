@@ -6,7 +6,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="tile common">
+            <div class="tile common" v-on:click="goToPage('proflist')">
                 <img src="@/assets/images/proflist.jpg">
                 <span class="title">Забор из профлиста</span>
                 <span class="description">Наши услуги</span>
@@ -24,8 +24,11 @@
         </div>
         <div class="row">
             <div class="tile special">
-				<img src="@/assets/images/icon_worker.png">
-				<span class="description">Получить Бесплатную Консультацию</span>
+                <div class="icon">
+                    <img src="@/assets/images/icon_worker.png">
+                    <div class="description">Получить Бесплатную Консультацию</div>
+                </div>
+                <div>Ещё какой-то текст</div>
             </div>
             <div class="tile common">
                 <img src="@/assets/images/slider_2.jpg">
@@ -54,7 +57,9 @@ export default {
 
     },
     methods: {
-
+        goToPage(page) {
+            this.$router.push(page);
+        }
     }
 };
 </script>
@@ -119,7 +124,13 @@ export default {
 		display: inline-block;
 		color: white;
 		text-transform: uppercase;
+        white-space: normal;
+        width: min-content;
     }
+    .tile.special .icon {
+        white-space: nowrap;
+    }
+
 	.tile.special {
 		background-color: rgb(226, 28, 33);
 		padding: 30px;

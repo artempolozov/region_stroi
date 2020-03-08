@@ -27,8 +27,8 @@ export default new Router({
             children: [],
         },
 		{
-            path: '/88',
-            name: 'zalupka',
+            path: '/proflist',
+            name: 'proflist',
             components: { 
                 header: Header,
                 footer: Footer,
