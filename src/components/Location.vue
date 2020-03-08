@@ -34,6 +34,7 @@
         /* align-content: end; */
         flex-flow: column;
         margin: 2px auto;
+        font-weight: bold;
     }
 
     .footer-content .info > div {

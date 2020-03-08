@@ -2,7 +2,7 @@
     <div class="layouts--header">
         <div class="header-content">
             <div class="row">
-                <div class="logo"  v-on:click="goToHome">
+                <div class="logo"  v-on:click="goToPage('/')">
                     <img src="@/assets/images/logo_black.png">
                 </div>
                 <div class="desc">Монтаж и производство заборов "под ключ"</div>
@@ -31,8 +31,8 @@
 
         },
         methods: {
-            goToHome() {
-                window.location.href = '/';
+            goToPage(page) {
+                this.$router.push(page);
             }
         }
     };

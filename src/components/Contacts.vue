@@ -36,6 +36,7 @@
         text-align: left;
         white-space: nowrap;
         display: inline-block;
+        font-weight: bold;
     }
     .info > div:nth-of-type(3) {
         color: grey;

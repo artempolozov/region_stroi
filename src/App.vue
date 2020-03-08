@@ -22,7 +22,18 @@
 <style>
   @font-face {
     font-family: HelveticaNeue;
-    src: url('./assets/HelveticaNeue.ttf');
+    src: url('./assets/HelveticaNeueCyr-Heavy.otf');
+    font-weight: bold;
+  }
+  @font-face {
+    font-family: HelveticaNeue;
+    src: url('./assets/HelveticaNeueCyr-Medium.otf');
+    font-weight: 500;
+  }
+  @font-face {
+    font-family: HelveticaNeue;
+    src: url('./assets/HelveticaNeueCyr-Roman.otf');
+    font-weight: normal;
   }
 
   html, body {

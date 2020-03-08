@@ -28,7 +28,10 @@
                     <img src="@/assets/images/icon_worker.png">
                     <div class="description">Получить Бесплатную Консультацию</div>
                 </div>
-                <div>Ещё какой-то текст</div>
+                <pre class="full-description">Бесплатно измерим участок.
+                    Покажем образцы ограждений.
+                    Поможем с выбором забора.
+                    Заключим договор на месте. </pre>
             </div>
             <div class="tile common">
                 <img src="@/assets/images/slider_2.jpg">
@@ -41,14 +44,15 @@
                 <span class="description">Наши услуги</span>
             </div>
         </div>
-
+        <about></about>
     </div>
 </template>
 
 <script>
+import About from "../components/About";
 
 export default {
-    components: {       
+    components: { About
     },
     data() {
         return {};
@@ -68,15 +72,16 @@ export default {
         width: 100%;
     }
     .page-description {
-        height: 100px;
+        height: 80px;
         width: 100%;
-        background-color: white;
-        border-left: 3px solid rgb(226, 28, 33);
-        margin: 15px 0px;
-        padding-left: 20px;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
         place-items: center;
+        -webkit-box-sizing: border-box;
         box-sizing: border-box;
+        text-align: center;
+        justify-content: center;
     }
     .page-description > span {
 		font-weight: bolder;
@@ -111,6 +116,7 @@ export default {
     }
 	.tile.special img {
         width: 70px;
+        margin-right: 30px;
     }
     .title {
         font-weight: bold;
@@ -126,13 +132,22 @@ export default {
 		text-transform: uppercase;
         white-space: normal;
         width: min-content;
+        font-weight: bold;
+        font-size: 17px;
     }
     .tile.special .icon {
         white-space: nowrap;
+        margin-bottom: 30px
     }
 
 	.tile.special {
 		background-color: rgb(226, 28, 33);
 		padding: 30px;
 	}
+    .full-description {
+        white-space: pre-line;
+        font-family: inherit;
+        color: white;
+        font-size: 14px;
+    }
 </style>
