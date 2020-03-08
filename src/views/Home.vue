@@ -79,8 +79,8 @@ export default {
         box-sizing: border-box;
     }
     .page-description > span {
-        font-weight: bolder;
-        font-size: 24px;
+		font-weight: bolder;
+        font-size: 20px;
         text-transform: uppercase;
     }
 
