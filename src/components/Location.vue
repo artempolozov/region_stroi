@@ -4,7 +4,7 @@
             <img src="@/assets/geo.png">
         </div>
         <div class="info">
-            <div>Липецк</div>
+            <div>Черноземье</div>
             <div>Липецкая область</div>
         </div>
     </div>

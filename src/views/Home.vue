@@ -1,58 +1,56 @@
 <template>
     <div class="views--home">
         <div class="row">
-            <div class="page-description">
-               <span>Наши услуги</span>
-            </div>
         </div>
         <div class="row">
             <div class="tile common" v-on:click="goToPage('proflist')">
                 <img src="@/assets/images/proflist.jpg">
                 <span class="title">Забор из профлиста</span>
-                <span class="description">Наши услуги</span>
+                <span class="description">Цинк / полимерный односторонний / Полимерный двухсторонний
+                </span>
             </div>
-            <div class="tile common">
-                <img src="@/assets/images/slider_2.jpg">
-                <span class="title">Забор из профлиста</span>
-                <span class="description">Наши услуги</span>
+            <div class="tile common" v-on:click="goToPage('shtaketnik')">
+                <img src="@/assets/images/shtaket.jpg">
+                <span class="title">Забор из ЕВРОШТАКЕТНИКА</span>
+                <span class="description">Евроштакетник / Евроштакетник-шахматка</span>
             </div>
-            <div class="tile common">
-                <img src="@/assets/images/slider_2.jpg">
-                <span class="title">Забор из профлиста</span>
-                <span class="description">Наши услуги</span>
+            <div class="tile common" v-on:click="goToPage('rabica')">
+                <img src="@/assets/images/rabica.jpg">
+                <span class="title">Забор из Сетки рабица</span>
+                <span class="description">Цвет: Цинк / зеленый</span>
             </div>
         </div>
         <div class="row">
-            <div class="tile special">
-                <div class="icon">
-                    <img src="@/assets/images/icon_worker.png">
-                    <div class="description">Получить Бесплатную Консультацию</div>
-                </div>
-                <pre class="full-description">Бесплатно измерим участок.
-                    Покажем образцы ограждений.
-                    Поможем с выбором забора.
-                    Заключим договор на месте. </pre>
+            <div class="tile common" v-on:click="goToPage('3D')">
+                <img src="@/assets/images/3D.jpg">
+                <span class="title">Забор из 3D-сетки</span>
+                <span class="description">Цвет: Зеленый</span>
             </div>
-            <div class="tile common">
-                <img src="@/assets/images/slider_2.jpg">
-                <span class="title">Забор из профлиста</span>
-                <span class="description">Наши услуги</span>
+            <div class="tile common" v-on:click="goToPage('kalitki')">
+                <img src="@/assets/images/kalitka.jpg">
+                <span class="title">Установка калитки</span>
+                <span class="description">Калитка с врезным замком</span>
             </div>
-            <div class="tile common">
-                <img src="@/assets/images/slider_2.jpg">
-                <span class="title">Забор из профлиста</span>
-                <span class="description">Наши услуги</span>
+            <div class="tile common" v-on:click="goToPage('vorota')">
+                <img src="@/assets/images/vorota.jpg">
+                <span class="title">Установка ворот</span>
+                <span class="description">Откатные / распашные / механические / Автоматические
+                </span>
             </div>
         </div>
         <about></about>
+        <work></work>
+        <whywe></whywe>
     </div>
 </template>
 
 <script>
 import About from "../components/About";
+import Work from "../components/Work";
+import Whywe from "../components/Whywe";
 
 export default {
-    components: { About
+    components: { About, Work, Whywe
     },
     data() {
         return {};
@@ -100,6 +98,7 @@ export default {
         padding: 20px;
         display: inline-block;
 		box-sizing: border-box;
+        font-family: HelveticaNeueCyr;
     }
 	.tile:hover {
 		webkit-transform: scale(1.01);
@@ -122,6 +121,7 @@ export default {
         font-weight: bold;
         text-transform: uppercase;
         font-size: 14px;
+        font-family: HelveticaNeueCyr;
     }
     .tile.common .description {
         display: block;
@@ -149,5 +149,9 @@ export default {
         font-family: inherit;
         color: white;
         font-size: 14px;
+    }
+    .description {
+        font-size: 13px;
+        color: rgb(78, 78, 78);
     }
 </style>

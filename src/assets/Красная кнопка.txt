@@ -1,0 +1,11 @@
+
+            <div class="tile special">
+                <div class="icon">
+                    <img src="@/assets/images/icon_worker.png">
+                    <div class="description">Получить Бесплатную Консультацию</div>
+                </div>
+                <pre class="full-description">Бесплатно измерим участок.
+                    Покажем образцы ограждений.
+                    Поможем с выбором забора.
+                    Заключим договор на месте. </pre>
+            </div>

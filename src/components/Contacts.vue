@@ -42,6 +42,7 @@
         color: grey;
         font-size: 10px;
         margin-top: 3px;
+        font-weight: normal;
     }
 
 

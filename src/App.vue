@@ -21,28 +21,29 @@
 </script>
 <style>
   @font-face {
-    font-family: HelveticaNeue;
+    font-family: HelveticaNeueCyr;
     src: url('./assets/HelveticaNeueCyr-Heavy.otf');
     font-weight: bold;
   }
   @font-face {
-    font-family: HelveticaNeue;
+    font-family: HelveticaNeueCyr;
     src: url('./assets/HelveticaNeueCyr-Medium.otf');
     font-weight: 500;
   }
   @font-face {
-    font-family: HelveticaNeue;
+    font-family: HelveticaNeueCyr;
     src: url('./assets/HelveticaNeueCyr-Roman.otf');
     font-weight: normal;
   }
 
   html, body {
-    background: #ebebeb;
     height: 100%;
+    background: url(./assets/background.png);
+    background-size: 100%;
   }
   body {
     margin: initial;
-    font-family: HelveticaNeue;
+    font-family: HelveticaNeueCyr;
   }
 
   #app {

@@ -12,7 +12,7 @@
 
 <style scoped>
     .order {
-        padding: 19px 15px;
+        padding: 5px 15px;
         margin: 10px 0;
     }
     .header-content .order {
@@ -25,7 +25,7 @@
         width: 165px;
         border-radius: 15px;
         font-weight: bold;
-        font-size: 14px;
+        font-size: 13px;
         justify-content: center;
         display: flex;
         align-items: center;
