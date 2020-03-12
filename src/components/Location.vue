@@ -35,6 +35,7 @@
         flex-flow: column;
         margin: 2px auto;
         font-weight: bold;
+        font-size: 16px;
     }
 
     .footer-content .info > div {

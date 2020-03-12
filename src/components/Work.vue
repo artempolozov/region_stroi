@@ -7,9 +7,9 @@
                 <div class="pictures">
                     <img src="@/assets/images/wework.png">
                     <pre class="desc">
-                        Мы работаем в самых
-                        труднодоступных районах
-                        Липецкой области и Черноземья!</pre>
+Мы работаем в самых
+труднодоступных районах
+Липецкой области и Черноземья!</pre>
                 </div>
             </div>
         </div>
@@ -28,9 +28,9 @@
         margin:auto;
     }
     .wework img {
-        width: 500px;
+        width: 480px;
         margin-right: 10px;
-        margin-left: 100px;
+        margin-left: 60px;
     }
     .pictures .desc {
         display: inline-block;
@@ -38,13 +38,14 @@
         font-size: 21px;
         color: rgb(78, 78, 78);
         font-family: HelveticaNeueCyr;
+        position: relative;
     }
     .pictures {
         display: flex;
         align-items: center;
     }
     .page-desc {
-        height: 50px;
+        height: 15px;
         width: 100%;
         display: -webkit-box;
         display: -ms-flexbox;

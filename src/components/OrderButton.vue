@@ -32,7 +32,7 @@
         text-transform: uppercase;
     }
     .order-button:hover {
-        background-color: #9f0000;
+        background-color: rgb(208, 25, 30);
         cursor: pointer;
     }
 </style>

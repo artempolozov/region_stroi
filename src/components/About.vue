@@ -117,10 +117,16 @@
         display: inline-flex;
         align-items: center;
         text-transform: uppercase;
+        position: relative;
+        bottom: 27px;
     }
     pre.order-text {
         display: inline-block;
         font-family: HelveticaNeueCyr;
         color: rgb(78, 78, 78);
+    }
+    .order-button:hover {
+        background-color: rgb(208, 25, 30);
+        cursor: pointer;
     }
 </style>

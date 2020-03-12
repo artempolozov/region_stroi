@@ -1,16 +1,19 @@
 <template>
     <ul class="menu">
-        <li><a href="./">Home</a></li>
-        <li><a href="./test">Test</a></li>
-		<li class="dropdown">
+        <li><a href="./test">Заборы</a></li>
+        <li><a href="./">Ворота</a></li>
+        <li><a href="./">Калитки</a></li>
 
-            <a href="javascript:void(0)" class="dropbtn">Dropdown</a>
+        <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn">Заборы</a>
             <div class="dropdown-content">
-                <a href="#">Link 1</a>
-                <a href="#">Link 2</a>
-                <a href="#">Link 3</a>
+                <a href="#">Профлист</a>
+                <a href="#">Евроштакетник</a>
+                <a href="#">Сетка-рабица</a>
+                <a href="#">3D-сетка</a>
             </div>
         </li>
+
     </ul>
 </template>
 
@@ -29,7 +32,7 @@
     }
     .menu li:hover {
         cursor: pointer;
-        color: red;
+        color: rgb(226, 28, 33);
     }
 
     ul {
@@ -70,7 +73,7 @@
         padding: 12px 16px;
         text-decoration: none;
         display: block;
-        text-align: left;
+        text-align: center;
     }
 
     .dropdown-content a:hover {background-color: #f1f1f1;}
