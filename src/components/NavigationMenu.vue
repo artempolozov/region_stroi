@@ -1,9 +1,5 @@
 <template>
     <ul class="menu">
-        <li><a href="./test">Заборы</a></li>
-        <li><a href="./">Ворота</a></li>
-        <li><a href="./">Калитки</a></li>
-
         <li class="dropdown">
             <a href="javascript:void(0)" class="dropbtn">Заборы</a>
             <div class="dropdown-content">
@@ -13,7 +9,17 @@
                 <a href="#">3D-сетка</a>
             </div>
         </li>
-
+        <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn">Ворота</a>
+            <div class="dropdown-content">
+                <a href="#">Профлист</a>
+                <a href="#">Евроштакетник</a>
+                <a href="#">Сетка-рабица</a>
+                <a href="#">3D-сетка</a>
+            </div>
+        </li>
+        <li><a href="./">Калитки</a></li>
+        <li><a href="./">Контакты</a></li>
     </ul>
 </template>
 
