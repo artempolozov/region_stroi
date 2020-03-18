@@ -1,31 +1,35 @@
 <template>
     <ul class="menu">
         <li class="dropdown">
-            <a href="javascript:void(0)" class="dropbtn">Заборы</a>
+            <div href="javascript:void(0)" class="dropbtn">Заборы</div>
             <div class="dropdown-content">
-                <a href="#">Профлист</a>
-                <a href="#">Евроштакетник</a>
-                <a href="#">Сетка-рабица</a>
-                <a href="#">3D-сетка</a>
+                <div v-on:click="goToPage('proflist')"> Профлист </div>
+                <div v-on:click="goToPage('shtaketnik')">Евроштакетник</div>
+                <div v-on:click="goToPage('rabica')">Сетка-рабица</div>
+                <div v-on:click="goToPage('3D')">3D-сетка</div>
             </div>
         </li>
         <li class="dropdown">
-            <a href="javascript:void(0)" class="dropbtn">Ворота</a>
+            <div href="javascript:void(0)" class="dropbtn">Ворота</div>
             <div class="dropdown-content">
-                <a href="#">Профлист</a>
-                <a href="#">Евроштакетник</a>
-                <a href="#">Сетка-рабица</a>
-                <a href="#">3D-сетка</a>
+                <div v-on:click="goToPage('raspashnye')">Распашные</div>
+                <div v-on:click="goToPage('otkatnye')">Откатные</div>
             </div>
         </li>
-        <li><a href="./">Калитки</a></li>
-        <li><a href="./">Контакты</a></li>
+        <li><div v-on:click="goToPage('kalitka')">Калитки</div></li>
+        <li><div v-on:click="goToPage('kontakty')">Контакты</div></li>
     </ul>
 </template>
 
 <script>
     export default {
-        name: "Menu"
+        name: "Menu",
+        methods:{
+            goToPage(page) {
+                this.$router.push(page);
+                window.scrollTo(0,0);
+            }
+        }
     }
 </script>
 
@@ -54,7 +58,7 @@
         float: left;
     }
 
-    li a, .dropbtn {
+    li div, .dropbtn {
         display: inline-block;
         text-align: center;
         text-decoration: none;
@@ -72,11 +76,11 @@
         min-width: 160px;
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
         z-index: 1;
-        margin-left: -60px;
+        transform: translateX(-27%);
         margin-top: 15px;
     }
 
-    .dropdown-content a {
+    .dropdown-content div {
         color: black;
         padding: 12px 16px;
         text-decoration: none;
@@ -84,7 +88,7 @@
         text-align: center;
     }
 
-    .dropdown-content a:hover {background-color: #f1f1f1;}
+    .dropdown-content div:hover {background-color: #f1f1f1;}
 
     .dropdown:hover .dropdown-content {
         display: block;

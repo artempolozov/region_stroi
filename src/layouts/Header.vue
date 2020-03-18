@@ -58,7 +58,7 @@
     }
 
     .logo img {
-        height: 55px;
+        height: 70px;
     }
     .logo {
         padding: 0 15px;

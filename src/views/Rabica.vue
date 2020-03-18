@@ -1,7 +1,6 @@
 <template>
     <div class="views--home" style="height: 800px">
-       Текст зуалупки
-
+       Рабица
     </div>
 </template>
 

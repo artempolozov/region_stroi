@@ -26,7 +26,7 @@
                 <span class="title">Забор из 3D-сетки</span>
                 <span class="description">Цвет: Зеленый</span>
             </div>
-            <div class="tile common" v-on:click="goToPage('kalitki')">
+            <div class="tile common" v-on:click="goToPage('kalitka')">
                 <img src="@/assets/images/kalitka.jpg">
                 <span class="title">Установка калитки</span>
                 <span class="description">Калитка с врезным замком</span>
@@ -61,6 +61,7 @@ export default {
     methods: {
         goToPage(page) {
             this.$router.push(page);
+            window.scrollTo(0,0);
         }
     }
 };

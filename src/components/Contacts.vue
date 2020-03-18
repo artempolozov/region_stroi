@@ -40,7 +40,7 @@
     }
     .info > div:nth-of-type(3) {
         color: grey;
-        font-size: 10px;
+        font-size: 11px;
         margin-top: 3px;
         font-weight: normal;
     }

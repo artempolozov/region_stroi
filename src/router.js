@@ -26,6 +26,38 @@ export default new Router({
             },
             children: [],
         },
+        {
+            path: '/shtaketnik',
+            name: 'shtaketnik',
+            components: {
+                header: Header,
+                footer: Footer,
+                slider: Slider,
+                //aside: Aside,
+                default: () => import('@/views/Shtaketnik.vue')
+            },
+            meta: {
+                title: 'Штакетник',
+                description: '',
+            },
+            children: [],
+        },
+        {
+            path: '/rabica',
+            name: 'rabica',
+            components: {
+                header: Header,
+                footer: Footer,
+                slider: Slider,
+                //aside: Aside,
+                default: () => import('@/views/Rabica.vue')
+            },
+            meta: {
+                title: 'Рабица',
+                description: '',
+            },
+            children: [],
+        },
 		{
             path: '/proflist',
             name: 'proflist',
@@ -34,10 +66,106 @@ export default new Router({
                 footer: Footer,
                 slider: Slider,
                 //aside: Aside,
-                default: () => import('@/views/88.vue')
+                default: () => import('@/views/Proflist.vue')
             },
             meta: {
-                title: 'Главная',
+                title: 'Профлист',
+                description: '',
+            },
+            children: [],
+        },
+        {
+            path: '/3D',
+            name: '3D',
+            components: {
+                header: Header,
+                footer: Footer,
+                slider: Slider,
+                //aside: Aside,
+                default: () => import('@/views/3D.vue')
+            },
+            meta: {
+                title: '3D',
+                description: '',
+            },
+            children: [],
+        },
+        {
+            path: '/Kalitka',
+            name: 'Kalitka',
+            components: {
+                header: Header,
+                footer: Footer,
+                slider: Slider,
+                //aside: Aside,
+                default: () => import('@/views/Kalitka.vue')
+            },
+            meta: {
+                title: 'Калитки',
+                description: '',
+            },
+            children: [],
+        },
+        {
+            path: '/Vorota',
+            name: 'Vorota',
+            components: {
+                header: Header,
+                footer: Footer,
+                slider: Slider,
+                //aside: Aside,
+                default: () => import('@/views/Vorota.vue')
+            },
+            meta: {
+                title: 'Ворота',
+                description: '',
+            },
+            children: [],
+        },
+        {
+            path: '/Otkatnye',
+            name: 'Otkatnye',
+            components: {
+                header: Header,
+                footer: Footer,
+                slider: Slider,
+                //aside: Aside,
+                default: () => import('@/views/Otkatnye.vue')
+            },
+            meta: {
+                title: 'Откатные',
+                description: '',
+            },
+            children: [],
+        },
+        {
+            path: '/Raspashnye',
+            name: 'Raspashnye',
+            components: {
+                header: Header,
+                footer: Footer,
+                slider: Slider,
+                //aside: Aside,
+                default: () => import('@/views/Raspashnye.vue')
+            },
+            meta: {
+                title: 'Откатные',
+                description: '',
+            },
+            children: [],
+        },
+        {
+            path: '/Kontakty',
+            name: 'Kontakty',
+            components: {
+                header: Header,
+                footer: Footer,
+                slider: Slider,
+                //aside: Aside,
+                default: () => import('@/views/Kontakty.vue')
+            },
+            meta: {
+                title: 'Откатные',
                 description: '',
             },
             children: [],
@@ -57,5 +185,6 @@ export default new Router({
             },
             children: [],
         }
+
     ]
 })

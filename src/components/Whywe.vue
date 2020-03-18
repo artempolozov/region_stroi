@@ -31,6 +31,8 @@
             </div>
         </div>
     </div>
+        <div class="page-description2">
+        </div>
     </div>
 </template>
 
@@ -45,6 +47,20 @@
         font-weight: bolder;
         font-size: 20px;
         text-transform: uppercase;
+    }
+    .page-description2 {
+        height: 20px;
+        width: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        place-items: center;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        text-align: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
     }
     .block {
         width: 900px;
