@@ -1,81 +1,40 @@
 <template>
     <div class="slider-container">
-        <div class="slider">
-            <div class="slider__wrapper">
-                <div class="slider__item">
-                    <img src="@/assets/images/slider_1.jpg">
-                </div>
-                <div class="slider__item">
-                    <img src="@/assets/images/slider_2.jpg">
-                </div>
-                <div class="slider__item">
-                    <img src="@/assets/images/slider_2.jpg">
-                </div>
-                <div class="slider__item">
-                    <img src="@/assets/images/slider_2.jpg">
-                </div>
-                <div class="slider__item">
-                    <img src="@/assets/images/slider_2.jpg">
-                </div>
-                <div class="slider__item">
-                    <div style="height: 250px; background: orchid;">6</div>
-                </div>
-                <div class="slider__item">
-                    <div style="height: 250px; background: aqua;">7</div>
-                </div>
-            </div>
-            <a class="slider__control slider__control_left" href="#" role="button"></a>
-            <a class="slider__control slider__control_right slider__control_show" href="#" role="button"></a>
-        </div>
+        <slick ref="slick" :options="slickOptions">
+            <a href="http://placehold.it/2000x1000"><img src="http://placehold.it/2000x1000" alt=""></a>
+            <a href="http://placehold.it/2000x1000"><img src="http://placehold.it/2000x1000" alt=""></a>
+            <a href="http://placehold.it/2000x1000"><img src="http://placehold.it/2000x1000" alt=""></a>
+            <a href="http://placehold.it/2000x1000"><img src="http://placehold.it/2000x1000" alt=""></a>
+            <a href="http://placehold.it/2000x1000"><img src="http://placehold.it/2000x1000" alt=""></a>
+        </slick>
     </div>
 </template>
 
 <script>
-
-    function slide($dom, offset = 0) {
-        let $wrapper = $dom.querySelector('.slider__wrapper');
-
-
-        $dom.querySelector('.slider__control_left').onclick =() => {
-            offset -= 400;
-            $wrapper.scrollTo({
-                left: offset,
-                behavior: "smooth"
-            });
-        };
-
-        $dom.querySelector('.slider__control_right').onclick = () => {
-            offset += 400;
-            $wrapper.scrollTo({
-                left: offset,
-                behavior: "smooth"
-            });
-        };
-
-        setInterval(() => {
-            offset += 400;
-
-            if ($wrapper.clientWidth < offset)
-                offset = -400;
-
-            $wrapper.scrollTo({
-                left: offset,
-                behavior: "smooth"
-            });
-        }, 3000)
-    }
+    import Slick from 'vue-slick';
 
     export default {
         name: "Slider",
+        components: { Slick },
+        data() {
+            return {
+                slickOptions: {
+                    slidesToShow: 3,
+                    // Any other options that can be got from plugin documentation
+                },
+            };
+        },
         mounted() {
-            let $slider = this.$el.querySelector('.slider');
+            // let $slider = this.$el.querySelector('.slider');
+        },
+        methods: {
 
-            slide($slider);
-        }
+        },
     }
 </script>
 
 <style scoped>
+    @import "/node_modules/slick-carousel/slick/slick.css";
     .slider-container {
         width: 100%;
         flex: 0 0 auto;
