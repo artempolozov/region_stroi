@@ -154,7 +154,7 @@
     .text-down{
         display: inline-block;
         font-family: HelveticaNeueCyr;
-        color: #ffffffa6;
+        color: #ffffff73;
         text-align: center;
         position: relative;
         bottom: 10px;
