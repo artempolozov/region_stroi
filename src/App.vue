@@ -54,7 +54,7 @@
   #app-content {
     flex: 1 0 auto;
     margin-top: 155px;
-    max-width: 980px;
+    /*max-width: 980px;*/
     align-self: center;
     width: -webkit-fill-available;
   }

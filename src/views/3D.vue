@@ -1,6 +1,11 @@
 <template>
-    <div class="views--home" style="height: 800px">
-       3D-сетка
+    <div>
+        <div class="another-block">
+
+        </div>
+        <div class="views--home" style="height: 800px">
+           3D-сетка
+        </div>
     </div>
 </template>
 
@@ -20,3 +25,13 @@ export default {
     }
 };
 </script>
+<style scoped>
+    .views--home {
+        max-width: 980px;
+        margin: auto;
+    }
+    .another-block {
+        height: 300px;
+        background-color: black;
+    }
+</style>

@@ -39,8 +39,12 @@
     };
 </script>
 <style scoped>
+    .row {
+        display: flex;
+    }
     .row > div {
         align-self: center;
+        display: inline-block;
     }
 
     .row:nth-of-type(1) {

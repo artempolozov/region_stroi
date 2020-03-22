@@ -66,9 +66,10 @@ export default {
     }
 };
 </script>
-<style>
+<style scoped>
     .views--home {
-        width: 100%;
+        max-width: 980px;
+        margin: auto;
     }
     .page-description {
         height: 80px;
