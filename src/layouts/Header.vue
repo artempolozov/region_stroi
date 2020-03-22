@@ -20,6 +20,8 @@
     import Location from '@/components/Location';
     import OrderButton from '@/components/OrderButton';
 
+    import Headroom from "headroom.js";
+
     export default {
         components: {
             NavigationMenu, Contacts, Location, OrderButton
@@ -35,12 +37,23 @@
                 this.$router.push(page);
                 window.scrollTo(0,0);
             }
+        },
+        mounted() {
+            let myElement = this.$el;
+            // construct an instance of Headroom, passing the element
+            let headroom  = new Headroom(myElement);
+            // initialise
+            headroom.init();
         }
     };
 </script>
 <style scoped>
+    .row {
+        display: flex;
+    }
     .row > div {
         align-self: center;
+        display: inline-block;
     }
 
     .row:nth-of-type(1) {
@@ -75,5 +88,11 @@
         text-align: left;
     }
 
+    .headroom--pinned {
+        top: 0px;
+    }
+    .headroom--unpinned {
+        top: -150px;
+    }
 
 </style>

@@ -1,17 +1,21 @@
 <template>
-    <div class="views--home" style="height: 800px">
+    <div class="views--home">
         <div class="page-description3">
             <div class="down-text1"> ПОЛИМЕРНЫЙ ПРОФЛИСТ </div>
         </div>
-
-        <div class="box-price">
+        <div class="box-price" id="box-1">
             <div class="box-left">
                 <div class="caption">
                     <pre class="text-left">Высота забора: 1.5м
 (столб: 50х50 / 60х60, лаги: 40х20мм)</pre>
-                        <div class="color"></div><div class="color2"></div>
-                        <div class="color3"></div><div class="color4"></div>
-                        <div class="color5"></div>
+
+                </div>
+                <div class="available-colors">
+                    <div style="background-color: red"></div>
+                    <div style="background-color: red"></div>
+                    <div style="background-color: red"></div>
+                    <div style="background-color: red"></div>
+                    <div style="background-color: red"></div>
                 </div>
             </div>
             <div class="box-right">
@@ -21,16 +25,16 @@
             </div>
         </div>
 
-            <div class="page-description2">
-                <div class="icon">
-                    <img src="@/assets/images/complectred.png">
-                    <pre class="description">Комплектация забора оговаривается
+        <div class="page-description2">
+            <div class="icon">
+                <img src="@/assets/images/complectred.png">
+                <pre class="description">Комплектация забора оговаривается
 индивидуально с заказчиком!</pre>
-                </div>
             </div>
+        </div>
 
-        <div class="box-price">
-            <div class="box-left2">
+        <div class="box-price" id="box-2">
+            <div class="box-left">
                 <div class="caption">
                     <pre class="text-left">Высота забора: 1.8м
 (столб: 50х50 / 60х60, лаги: 40х20мм)</pre>
@@ -50,8 +54,8 @@
             </div>
         </div>
 
-        <div class="box-price">
-            <div class="box-left3">
+        <div class="box-price" id="box-3">
+            <div class="box-left">
                 <div class="caption">
                     <pre class="text-left">Высота забора: 2.0м
 (столб: 50х50 / 60х60, лаги: 40х20мм)</pre>
@@ -83,6 +87,10 @@
     };
 </script>
 <style scoped>
+    .views--home {
+        max-width: 980px;
+        margin: auto;
+    }
     .box-price {
         height: 230px;
         width: 90%;
@@ -97,32 +105,34 @@
         background-color: black;
         height: 100%;
         text-align: center;
-        display: inline-grid;
+        /* display: inline-grid; */
+        display: flex;
+        place-items: center;
+        flex-flow: column;
+        justify-content: center;
     }
     .box-left {
         width: 65%;
         height: 100%;
-        background-image: url(~@/assets/images/cink1.jpg);
-        background-repeat: round;
+        background-repeat: round !important;
     }
-    .box-left2 {
-        width: 65%;
-        height: 100%;
-        background-image: url(~@/assets/images/cink2.jpg);
-        background-size: cover;
-        background-position: center;
+    #box-1 .box-left {
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(~@/assets/images/cink1.jpg);
     }
-    .box-left3 {
-        width: 65%;
-        height: 100%;
-        background-image: url(~@/assets/images/cink3.jpg);
-        background-size: cover;
-        background-position: center;
+    #box-2 .box-left {
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(~@/assets/images/cink2.jpg);
     }
+    #box-3 .box-left {
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(~@/assets/images/cink3.jpg);
+    }
+
+    .available-colors {
+        text-align: center;
+    }
+
     .caption {
         width: 100%;
-        height: 100%;
-        background-color: rgba(0,0,0,0.31);
+        height: 75%;
         text-align: center;
     }
     .text-left {
@@ -135,12 +145,9 @@
         top: 72px;
     }
     .text-right {
-        display: inline-block;
         font-family: HelveticaNeueCyr;
         color: white;
         font-size: 19px;
-        text-align: center;
-        position: relative;
     }
     .text-right1 {
         display: inline-block;
@@ -148,16 +155,12 @@
         color: white;
         font-size: 19px;
         text-align: center;
-        position: relative;
-        top: 40px;
     }
     .text-down{
         display: inline-block;
         font-family: HelveticaNeueCyr;
         color: #ffffff73;
         text-align: center;
-        position: relative;
-        bottom: 10px;
     }
     .text-right2 {
         display: inline-block;
@@ -165,8 +168,6 @@
         color: rgb(226, 28, 33);
         font-size: 19px;
         text-align: center;
-        position: relative;
-        top: 90px;
     }
     .page-description2 {
         height: 100px;
@@ -214,57 +215,10 @@
         justify-content: space-around;
         height: 10px;
     }
-    .color {
-        width: 45px;
-        height: 20px;
-        background-color: red;
-        margin: auto;
-        position:relative;
-        top:80px;
-        left:10px;
-    }
-    .color2 {
-        width: 45px;
-        height: 20px;
-        background-color: green;
-        margin: auto;
-        position:relative;
-        top: 60px;
-        left: 70px;
-    }
-    .color3 {
-        width: 45px;
-        height: 20px;
-        background-color: yellow;
-        margin: auto;
-        position:relative;
-        top: 40px;
-        left: 130px;
-    }
-    .color4 {
-         width: 45px;
-         height: 20px;
-         background-color: blue;
-         margin: auto;
-         position:relative;
-         top: 20px;
-         left: 190px;
-     }
-    .color5 {
-        width: 45px;
-        height: 20px;
-        background-color: blueviolet;
-        margin: auto;
-        position:relative;
-        left: 250px;
-    }
-    .color6 {
-        width: 45px;
-        height: 20px;
-        background-color: red;
-        margin: auto;
-        position:relative;
-        top:80px;
-        left:10px;
+    .available-colors div {
+        height: 15px;
+        width: 50px;
+        display: inline-block;
+        margin: 10px;
     }
 </style>
