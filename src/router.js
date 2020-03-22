@@ -171,6 +171,38 @@ export default new Router({
             children: [],
         },
         {
+            path: '/Ocinkovanny',
+            name: 'Ocinkovanny',
+            components: {
+                header: Header,
+                footer: Footer,
+                slider: Slider,
+                //aside: Aside,
+                default: () => import('@/views/Ocinkovanny.vue')
+            },
+            meta: {
+                title: 'Оцинкованный профлист',
+                description: '',
+            },
+            children: [],
+        },
+        {
+            path: '/Polimer',
+            name: 'Polimer',
+            components: {
+                header: Header,
+                footer: Footer,
+                slider: Slider,
+                //aside: Aside,
+                default: () => import('@/views/Polimer.vue')
+            },
+            meta: {
+                title: 'Полимерный профлист',
+                description: '',
+            },
+            children: [],
+        },
+        {
             path: '/test',
             name: 'test',
             components: {

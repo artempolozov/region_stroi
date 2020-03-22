@@ -106,6 +106,7 @@ export default {
 		ms-transform: scale(1.01);
 		transform: scale(1.01);
 		cursor: pointer;
+        box-shadow: 0 2px 8px rgba(130, 128, 128, 0.15), 0 4px 22px rgba(130, 130, 130, 0.12);
 	}
 	.tile.common {
 		border-top: 3px solid rgb(226, 28, 33);

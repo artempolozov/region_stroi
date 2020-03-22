@@ -33,6 +33,7 @@
         methods: {
             goToPage(page) {
                 this.$router.push(page);
+                window.scrollTo(0,0);
             }
         }
     };

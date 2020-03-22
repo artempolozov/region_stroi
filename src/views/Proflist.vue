@@ -2,21 +2,25 @@
     <div class="views--home" style="height: 800px">
 
         <div class="page-description1">
-            <pre class="order-text1">
-        Забор из профлиста является хорошим решением,
+            <div class="page-description2">
+                <div class="icon">
+                    <img src="@/assets/images/inf.png">
+                    <pre class="description">Забор из профлиста является хорошим решением,
         когда необходимо быстро построить качественное сплошное ограждение.
         При установке таких ограждений на первый план выходят такие характеристики,
         как качество, долговечность и конечно экономичность
-            </pre>
+                </pre>
+                </div>
+            </div>
         </div>
         <span class="down-text">ВЫБЕРИТЕ ТИП ПОКРЫТИЯ:</span>
 
         <div class="row1">
-            <div class="tile1 common1">
+            <div class="tile1 common1" v-on:click="goToPage('ocinkovanny')">
                 <img src="@/assets/images/ocink.jpg">
                 <span class="title1">Оцинкованный профлист</span>
             </div>
-            <div class="tile1 common1">
+            <div class="tile1 common1" v-on:click="goToPage('polimer')">
                 <img src="@/assets/images/polimer.jpg">
                 <span class="title1">Полимерный профлист</span>
             </div>
@@ -36,7 +40,6 @@
 </template>
 
 <script>
-
 export default {
     components: {       
     },
@@ -47,7 +50,10 @@ export default {
 
     },
     methods: {
-
+        goToPage(page) {
+            this.$router.push(page);
+            window.scrollTo(0,0);
+        }
     }
 };
 </script>
@@ -78,10 +84,6 @@ export default {
         justify-content: space-around;
         height: 10px;
     }
-    tile.common1 {
-        border-top: 3px solid rgb(226, 28, 33);
-        background-color: white;
-    }
     .tile1.common1 img {
         width: 100%;
     }
@@ -111,6 +113,7 @@ export default {
     .description {
         font-size: 13px;
         color: rgb(78, 78, 78);
+        border-bottom: 1px solid rgba(66, 66, 66, 0.21);
     }
     .tile1 {
         width: 306px;
@@ -122,11 +125,40 @@ export default {
         font-family: HelveticaNeueCyr;
         text-align: center;
     }
-    .tile1:hover {
+    .tile1 img:hover {
         webkit-transform: scale(1.01);
         ms-transform: scale(1.01);
         transform: scale(1.01);
         cursor: pointer;
+        box-shadow: 0 2px 8px rgba(130, 128, 128, 0.15), 0 4px 22px rgba(130, 130, 130, 0.12);
+    }
+    .page-description2 {
+        height: 100px;
+        width: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        place-items: center;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        text-align: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+    .icon .description {
+        display: inline-block;
+        font-size: 16px;
+        color: rgb(78, 78, 78);
+        font-family: HelveticaNeueCyr;
+    }
+    .icon {
+        display: flex;
+        align-items: center;
+    }
+    .icon img {
+        width: 60px;
+        position: relative;
+        bottom: 10px;
     }
 </style>
-у

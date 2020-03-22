@@ -1,6 +1,7 @@
 <template>
     <div class="order">
         <div class="order-button">Бесплатный замер</div>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     </div>
 </template>
 
@@ -25,7 +26,7 @@
         width: 165px;
         border-radius: 15px;
         font-weight: bold;
-        font-size: 13px;
+        font-size: 12px;
         justify-content: center;
         display: flex;
         align-items: center;
