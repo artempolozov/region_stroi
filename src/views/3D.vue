@@ -3,7 +3,7 @@
         <div class="another-block">
 
         </div>
-        <div class="views--home" style="height: 800px">
+        <div class="views--home">
            3D-сетка
         </div>
     </div>
