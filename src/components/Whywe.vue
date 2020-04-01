@@ -8,10 +8,10 @@
 
     <div class="block">
         <div class="block1">
-            <div class="text1">8</div>
+            <div class="text1">7</div>
             <div class="text2">ЛЕТ</div>
                 <div class="b1">
-                <div>Более 8 лет опыта<br>на рынке строительных услуг!</div>
+                <div>Более 7 лет опыта<br>в сфере строительных услуг!</div>
                 </div>
         </div>
 
@@ -43,13 +43,22 @@
 </script>
 
 <style scoped>
+    .page-description >span {
+        height: 80px;
+        width: 100%;
+        display: flex;
+        place-items: center;
+        box-sizing: border-box;
+        text-align: center;
+        justify-content: center;
+    }
     .page-description > span {
         font-weight: bolder;
         font-size: 20px;
         text-transform: uppercase;
     }
     .page-description2 {
-        height: 20px;
+        height: 0px;
         width: 100%;
         display: -webkit-box;
         display: -ms-flexbox;

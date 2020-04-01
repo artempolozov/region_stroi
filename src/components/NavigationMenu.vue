@@ -17,6 +17,7 @@
             </div>
         </li>
         <li><div v-on:click="goToPage('kalitka')">Калитки</div></li>
+        <li><div v-on:click="goToPage('zapros')">Запрос</div></li>
         <li><div v-on:click="goToPage('kontakty')">Контакты</div></li>
     </ul>
 </template>

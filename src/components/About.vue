@@ -74,6 +74,20 @@
 </script>
 
 <style scoped>
+    .page-description >span {
+        height: 80px;
+        width: 100%;
+        display: flex;
+        place-items: center;
+        box-sizing: border-box;
+        text-align: center;
+        justify-content: center;
+    }
+    .page-description > span {
+        font-weight: bolder;
+        font-size: 20px;
+        text-transform: uppercase;
+    }
     .desc-column {
         display: inline-block;
         width: 50%;

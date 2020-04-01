@@ -3,7 +3,7 @@
         <div class="header-content">
             <div class="row">
                 <div class="logo"  v-on:click="goToPage('/')">
-                    <img src="@/assets/images/logo_black.png">
+                    <img title="Главная страница" src="@/assets/images/logo_black.png">
                 </div>
                 <div class="desc">Монтаж и производство заборов "под ключ"</div>
                 <contacts></contacts>
@@ -61,7 +61,7 @@
     }
 
     .layouts--header {
-        background: rgba(255, 255, 255, 0.76);
+        background: rgba(255, 255, 255, 0.92);
         text-align: center;
         position: fixed;
         width: 100%;
@@ -88,11 +88,15 @@
         text-align: left;
     }
 
+    .headroom {
+        will-change: transform;
+        transition: transform 200ms linear;
+    }
     .headroom--pinned {
-        top: 0px;
+        transform: translateY(0%);
     }
     .headroom--unpinned {
-        top: -150px;
+        transform: translateY(-100%);
     }
 
 </style>

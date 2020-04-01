@@ -1,27 +1,22 @@
 <template>
-    <div class="views--home">
-        <div class="page-description3">
-            <div class="down-text1"> ПОЛИМЕРНЫЙ ПРОФЛИСТ </div>
+<div>
+        <div class="another-block1">
+            <div class="text-right3">ПОЛИМЕРНЫЙ ПРОФЛИСТ</div>
+            <div class="text-right4">Лист покрыт цветным полимером с одной стороны.</div>
         </div>
+    <div class="views--home">
+            <div class="page-description3"></div>
         <div class="box-price" id="box-1">
             <div class="box-left">
                 <div class="caption">
                     <pre class="text-left">Высота забора: 1.5м
 (столб: 50х50 / 60х60, лаги: 40х20мм)</pre>
-
-                </div>
-                <div class="available-colors">
-                    <div style="background-color: red"></div>
-                    <div style="background-color: red"></div>
-                    <div style="background-color: red"></div>
-                    <div style="background-color: red"></div>
-                    <div style="background-color: red"></div>
                 </div>
             </div>
             <div class="box-right">
                 <div class="text-right2">Цена: </div>
-                <div class="text-right1">м/п от 1140р.</div>
-                <strike class="text-down">м/п от 1190р.</strike>
+                <div class="text-right1">м/п от 1140 руб.</div>
+                <strike class="text-down">м/п от 1190 руб.</strike>
             </div>
         </div>
 
@@ -42,7 +37,8 @@
             </div>
             <div class="box-right">
                 <div class="text-right2">Цена: </div>
-                <div class="text-right">м/п от 1240р.</div>
+                <div class="text-right">м/п от 1340 руб.</div>
+                <strike class="text-down">м/п от 1390 руб.</strike>
             </div>
         </div>
 
@@ -63,11 +59,14 @@
             </div>
             <div class="box-right">
                 <div class="text-right2">Цена: </div>
-                <div class="text-right">м/п от 1290р.</div>
+                <div class="text-right">м/п от 1390 руб.</div>
+                <strike class="text-down">м/п от 1440 руб.</strike>
             </div>
         </div>
-
+        <div class="page-description3">
+        </div>
     </div>
+</div>
 </template>
 
 <script>
@@ -105,7 +104,6 @@
         background-color: black;
         height: 100%;
         text-align: center;
-        /* display: inline-grid; */
         display: flex;
         place-items: center;
         flex-flow: column;
@@ -114,22 +112,18 @@
     .box-left {
         width: 65%;
         height: 100%;
-        background-repeat: round !important;
+        background-size: cover !important;
+        background-position: center !important;
     }
     #box-1 .box-left {
-        background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(~@/assets/images/cink1.jpg);
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(~@/assets/images/prof1.jpg);
     }
     #box-2 .box-left {
-        background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(~@/assets/images/cink2.jpg);
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(~@/assets/images/prof2.jpg);
     }
     #box-3 .box-left {
-        background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(~@/assets/images/cink3.jpg);
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(~@/assets/images/prof3.png);
     }
-
-    .available-colors {
-        text-align: center;
-    }
-
     .caption {
         width: 100%;
         height: 75%;
@@ -172,15 +166,10 @@
     .page-description2 {
         height: 100px;
         width: 100%;
-        display: -webkit-box;
-        display: -ms-flexbox;
         display: flex;
         place-items: center;
-        -webkit-box-sizing: border-box;
         box-sizing: border-box;
         text-align: center;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
         justify-content: center;
     }
     .page-description3 {
@@ -220,5 +209,26 @@
         width: 50px;
         display: inline-block;
         margin: 10px;
+    }
+    .another-block1 {
+        height: 180px;
+        background-color: black;
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(~@/assets/images/polimertop.jpg);
+        background-size: cover;
+        background-position: center;
+        text-align: center;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+    }
+    .text-right4 {
+        color: #eaeaea;
+        font-size: 16px;
+        font-weight: normal;
+    }
+    .text-right3 {
+        color: white;
+        font-size: 33px;
+        font-weight: bold;
     }
 </style>

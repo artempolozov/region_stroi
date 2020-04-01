@@ -4,8 +4,8 @@
             <img src="@/assets/phone.png">
         </div>
         <div class="info">
-            <div>+7 (920) 535-28-06</div>
-            <div>+7 (952) 591-33-70</div>
+            <div>+7 920 535-28-06</div>
+            <div>+7 952 591-33-70</div>
             <div>Без выходных с 9:00 до 21:00</div>
         </div>
     </div>
@@ -47,7 +47,7 @@
 
 
     .footer-content .info > div {
-        color: #c1c1c1;
+        color: #ffffff;
     }
 
 </style>

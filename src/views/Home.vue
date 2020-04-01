@@ -26,16 +26,16 @@
                 <span class="title">Забор из 3D-сетки</span>
                 <span class="description">Цвет: Зеленый</span>
             </div>
-            <div class="tile common" v-on:click="goToPage('kalitka')">
-                <img src="@/assets/images/kalitka.jpg">
-                <span class="title">Установка калитки</span>
-                <span class="description">Калитка с врезным замком</span>
-            </div>
             <div class="tile common" v-on:click="goToPage('vorota')">
                 <img src="@/assets/images/vorota.jpg">
                 <span class="title">Установка ворот</span>
                 <span class="description">Откатные / распашные / механические / Автоматические
                 </span>
+            </div>
+            <div class="tile common" v-on:click="goToPage('kalitka')">
+                <img src="@/assets/images/kalitka.jpg">
+                <span class="title">Установка калитки</span>
+                <span class="description">Калитка с врезным замком</span>
             </div>
         </div>
         <about></about>

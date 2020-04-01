@@ -2,7 +2,13 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Header from './layouts/Header';
 import Footer from './layouts/Footer';
-import Slider from './layouts/Slider';
+import SliderGLAVNAYA from './layouts/SliderGLAVNAYA';
+import Slider3D from './layouts/Slider3D';
+import SliderSHTAKETNIK from './layouts/SliderSHTAKETNIK';
+import SliderRABICA from "./layouts/SliderRABICA";
+import SliderPROFLIST from "./layouts/SliderPROFLIST";
+import SliderKALITKI from "./layouts/SliderKALITKI";
+import SliderVOROTA from "./layouts/SliderVOROTA";
 /*import Aside from './layouts/Aside';
 import AsideBlank from './layouts/AsideBlank';*/
 
@@ -16,7 +22,7 @@ export default new Router({
             components: { 
                 header: Header,
                 footer: Footer,
-                slider: Slider,
+                slider: SliderGLAVNAYA,
                 //aside: Aside,
                 default: () => import('@/views/Home.vue')
             },
@@ -32,7 +38,7 @@ export default new Router({
             components: {
                 header: Header,
                 footer: Footer,
-                slider: Slider,
+                slider: SliderSHTAKETNIK,
                 //aside: Aside,
                 default: () => import('@/views/Shtaketnik.vue')
             },
@@ -48,7 +54,7 @@ export default new Router({
             components: {
                 header: Header,
                 footer: Footer,
-                slider: Slider,
+                slider: SliderRABICA,
                 //aside: Aside,
                 default: () => import('@/views/Rabica.vue')
             },
@@ -64,7 +70,7 @@ export default new Router({
             components: { 
                 header: Header,
                 footer: Footer,
-                slider: Slider,
+                slider: SliderPROFLIST,
                 //aside: Aside,
                 default: () => import('@/views/Proflist.vue')
             },
@@ -80,7 +86,7 @@ export default new Router({
             components: {
                 header: Header,
                 footer: Footer,
-                slider: Slider,
+                slider: Slider3D,
                 //aside: Aside,
                 default: () => import('@/views/3D.vue')
             },
@@ -96,7 +102,7 @@ export default new Router({
             components: {
                 header: Header,
                 footer: Footer,
-                slider: Slider,
+                slider: SliderKALITKI,
                 //aside: Aside,
                 default: () => import('@/views/Kalitka.vue')
             },
@@ -112,7 +118,7 @@ export default new Router({
             components: {
                 header: Header,
                 footer: Footer,
-                slider: Slider,
+                slider: SliderVOROTA,
                 //aside: Aside,
                 default: () => import('@/views/Vorota.vue')
             },
@@ -128,7 +134,6 @@ export default new Router({
             components: {
                 header: Header,
                 footer: Footer,
-                slider: Slider,
                 //aside: Aside,
                 default: () => import('@/views/Otkatnye.vue')
             },
@@ -144,7 +149,6 @@ export default new Router({
             components: {
                 header: Header,
                 footer: Footer,
-                slider: Slider,
                 //aside: Aside,
                 default: () => import('@/views/Raspashnye.vue')
             },
@@ -160,12 +164,26 @@ export default new Router({
             components: {
                 header: Header,
                 footer: Footer,
-                slider: Slider,
                 //aside: Aside,
                 default: () => import('@/views/Kontakty.vue')
             },
             meta: {
-                title: 'Откатные',
+                title: 'Контакты',
+                description: '',
+            },
+            children: [],
+        },
+        {
+            path: '/Zapros',
+            name: 'Zapros',
+            components: {
+                header: Header,
+                footer: Footer,
+                //aside: Aside,
+                default: () => import('@/views/Zapros.vue')
+            },
+            meta: {
+                title: 'Запрос',
                 description: '',
             },
             children: [],
@@ -176,7 +194,6 @@ export default new Router({
             components: {
                 header: Header,
                 footer: Footer,
-                slider: Slider,
                 //aside: Aside,
                 default: () => import('@/views/Ocinkovanny.vue')
             },
@@ -192,12 +209,71 @@ export default new Router({
             components: {
                 header: Header,
                 footer: Footer,
-                slider: Slider,
                 //aside: Aside,
                 default: () => import('@/views/Polimer.vue')
             },
             meta: {
                 title: 'Полимерный профлист',
+                description: '',
+            },
+            children: [],
+        },
+        {
+            path: '/Dvuhstoronny',
+            name: 'Dvuhstoronny',
+            components: {
+                header: Header,
+                footer: Footer,
+                //aside: Aside,
+                default: () => import('@/views/Dvuhstoronny.vue')
+            },
+            meta: {
+                title: 'Двухсторонний полимерный профлист',
+                description: '',
+            },
+            children: [],
+        },
+        {
+            path: '/Dekorativny',
+            name: 'Dekorativny',
+            components: {
+                header: Header,
+                footer: Footer,
+                //aside: Aside,
+                default: () => import('@/views/Dekorativny.vue')
+            },
+            meta: {
+                title: 'Декоративный профлист',
+                description: '',
+            },
+            children: [],
+        },
+        {
+            path: '/Evroshtaketnik',
+            name: 'Evroshtaketnik',
+            components: {
+                header: Header,
+                footer: Footer,
+                //aside: Aside,
+                default: () => import('@/views/Evroshtaketnik.vue')
+            },
+            meta: {
+                title: 'Евроштакетник',
+                description: '',
+            },
+            children: [],
+        },
+        {
+            path: '/Shahmatka',
+            name: 'Shahmatka',
+            components: {
+                header: Header,
+                footer: Footer,
+                //aside: Aside,
+                default: () => import('@/views/Shahmatka.vue')
+            },
+            meta: {
+                title: 'Евроштакетник',
                 description: '',
             },
             children: [],

@@ -31,7 +31,6 @@
     .info {
         text-align: left;
         display: flex;
-        /* align-content: end; */
         flex-flow: column;
         margin: 2px auto;
         font-weight: bold;
@@ -39,6 +38,6 @@
     }
 
     .footer-content .info > div {
-        color: #c1c1c1;
+        color: #ffffff;
     }
 </style>
