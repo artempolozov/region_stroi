@@ -1,31 +1,24 @@
 <template>
     <div>
         <div class="another-block1">
-            <div class="text-right3">ОТКАТНЫЕ ВОРОТА</div>
-            <pre class="text-right4">Откатные ворота не занимают полезного пространства
-вашего участка, во время их открывания.</pre>
+            <div class="text-right3">Откатные ворота</div>
+            <div class="text-right4">Откатные ворота не занимают полезного пространства</div>
+            <div class="text-right4">вашего участка, во время их открывания.</div>
         </div>
 
         <div class="views--home">
-            <div class="page-description3"></div>
             <div class="box-price" id="box-1">
                 <div class="box-left">
                     <div class="caption">
                     <pre class="text-left">Механические ворота:
 (Ширина 3.0-4.0м)</pre>
+                    <div class="text-attention">Комплектация и цвет  ворот оговаривается</div>
+                    <div class="text-attention"> индивидуально с заказчиком! </div>
                     </div>
                 </div>
                 <div class="box-right">
                     <div class="text-right2">Цена: </div>
-                    <div class="text-right1">м/п от 49990 руб.</div>
-                </div>
-            </div>
-
-            <div class="page-description2">
-                <div class="icon">
-                    <img src="@/assets/images/complectred.png">
-                    <pre class="description">Комплектация забора оговаривается
-индивидуально с заказчиком!</pre>
+                    <div class="text-right">от 49990 руб.</div>
                 </div>
             </div>
 
@@ -34,15 +27,14 @@
                     <div class="caption">
                     <pre class="text-left">Автоматические ворота:
 (Ширина 3.0-4.0м)</pre>
+                    <div class="text-attention">Комплектация и цвет  ворот оговаривается</div>
+                    <div class="text-attention"> индивидуально с заказчиком! </div>
                     </div>
                 </div>
                 <div class="box-right">
                     <div class="text-right2">Цена: </div>
-                    <div class="text-right">м/п от 59990 руб.</div>
+                    <div class="text-right">от 59990 руб.</div>
                 </div>
-            </div>
-
-            <div class="page-description3">
             </div>
         </div>
     </div>
@@ -77,6 +69,7 @@
         box-sizing: border-box;
         justify-content: center;
         margin: auto;
+        margin-bottom: 40px;
     }
     .box-right {
         width: 35%;
@@ -95,15 +88,16 @@
         background-position: center !important;
     }
     #box-1 .box-left {
-        background: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(~@/assets/images/otkat1.jpg);
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(~@/assets/images/otkat1.jpg);
     }
     #box-2 .box-left {
-        background: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(~@/assets/images/otkat2.jpg);
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(~@/assets/images/otkat2.jpg);
     }
     .caption {
         width: 100%;
-        height: 75%;
         text-align: center;
+        top: 75px;
+        position: relative;
     }
     .text-left {
         display: inline-block;
@@ -111,18 +105,16 @@
         color: white;
         font-size: 19px;
         text-align: center;
-        position: relative;
-        top: 72px;
+    }
+    .text-attention {
+        color: #ffffffe0;
+        font-size: 13px;
+        text-align: center;
     }
     .text-right {
         color: white;
         font-size: 19px;
-    }
-    .text-right1 {
-        display: inline-block;
-        color: white;
-        font-size: 19px;
-        text-align: center;
+        margin-top: 5px;
     }
     .text-right2 {
         display: inline-block;
@@ -130,80 +122,130 @@
         font-size: 19px;
         text-align: center;
     }
-    .page-description2 {
-        height: 100px;
-        width: 100%;
-        display: flex;
-        place-items: center;
-        box-sizing: border-box;
-        text-align: center;
-        justify-content: center;
-    }
-    .page-description3 {
-        height: 40px;
-        width: 100%;
-        display: flex;
-        place-items: center;
-        box-sizing: border-box;
-        text-align: center;
-        justify-content: center;
-        position: relative;
-        bottom: 6px;
-    }
-    .icon .description {
-        display: inline-block;
-        font-size: 16px;
-        color: rgb(78, 78, 78);
-        font-family: HelveticaNeueCyr;
-    }
-    .icon {
-        display: flex;
-        align-items: center;
-    }
-    .icon img {
-        width: 50px;
-        margin-right: 10px;
-    }
-    .down-text1 {
-        font-family: HelveticaNeueCyr;
-        color: rgb(78, 78, 78);
-        display: flex;
-        justify-content: space-around;
-        height: 10px;
-    }
-    .available-colors div {
-        height: 15px;
-        width: 50px;
-        display: inline-block;
-        margin: 10px;
-    }
     .another-block1 {
         height: 180px;
         background-color: black;
-        background: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(~@/assets/images/otkattop.jpg);
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(~@/assets/images/otkattop.jpg);
         background-size: cover;
         background-position: center;
         text-align: center;
         display: flex;
         flex-flow: column;
         justify-content: center;
+        margin-bottom: 40px;
     }
     .text-right4 {
         color: #eaeaea;
         font-size: 16px;
         font-weight: normal;
-        font-family: HelveticaNeueCyr;
-        margin: 1px;
     }
     .text-right3 {
         color: white;
         font-size: 33px;
         font-weight: bold;
+        margin-bottom: 8px;
     }
-    .text-down{
-        display: inline-block;
-        font-family: HelveticaNeueCyr;
-        color: #ffffff73;
-        text-align: center;
+    @media screen and (max-width: 690px) {
+        div .another-block1 {
+            margin-top: 30px;
+            height: 160px;
+        }
+        div .text-right3 {
+            font-size: 27px;
+        }
+        div .text-right4 {
+            font-size: 14px;
+        }
+        div .box-price {
+            display: block;
+        }
+        div .box-left {
+            width: 100%;
+            height: 65%;
+        }
+        div .caption {
+            top: 30px;
+        }
+        div .box-right {
+            width: 100%;
+            height: 35%;
+        }
+        div .text-left {
+            font-size: 17px;
+        }
+        div .text-attention {
+            font-size: 12px;
+        }
+        div .text-right2 {
+            font-size: 17px;
+        }
+        div .text-right {
+            font-size: 16px;
+        }
     }
+    @media screen and (max-width: 520px) {
+        div .another-block1 {
+            margin-top: 23px;
+            height: 150px;
+        }
+        div .text-right3 {
+            font-size: 25px;
+        }
+        div .text-right4 {
+            font-size: 12px;
+            display: none;
+        }
+        div .caption {
+            top: 40px;
+        }
+        div .text-left {
+            font-size: 15px;
+        }
+
+        div .text-attention {
+            font-size: 11px;
+        }
+        div .text-right2 {
+            font-size: 16px;
+        }
+        div .text-right {
+            font-size: 15px;
+        }
+        @media screen and (max-width: 416px) {
+        div .another-block1 {
+            height: 120px;
+        }
+        div .text-right3 {
+            font-size: 18px;
+        }
+        div .text-right4 {
+            font-size: 9px;
+            margin-top: 4px;
+        }
+        div .text-left {
+            font-size: 14px;
+        }
+        div .text-attention {
+            font-size: 10px;
+        }
+        div .text-right2 {
+            font-size: 15px;
+        }
+        div .text-right {
+            font-size: 14px;
+        }
+    }
+        @media screen and (max-width: 375px) {
+        div .another-block1 {
+            height: 120px;
+        }
+        div .text-right3 {
+            font-size: 18px;
+        }
+        div .text-right4 {
+            font-size: 9px;
+            margin-top: 4px;
+        }
+    }
+}
 </style>

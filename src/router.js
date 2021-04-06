@@ -14,7 +14,9 @@ import AsideBlank from './layouts/AsideBlank';*/
 
 Vue.use(Router);
 
-export default new Router({
+
+const router = new Router({
+    mode: 'history',
     routes: [
         {
             path: '/',
@@ -27,8 +29,8 @@ export default new Router({
                 default: () => import('@/views/Home.vue')
             },
             meta: {
-                title: 'Главная',
-                description: '',
+                title: 'Установка заборов в Липецке - заборы со скидками "ЗАБОР-РЕГИОН"',
+                description: 'Установка заборов из профлиста, заборы из евроштакетника, заборы из сетки-рабица, заборы из 3D-сетки, калитки, распашные и откатные ворота по низкой цене. Пенсионерам скидки! Работаем по всей Липецкой области!',
             },
             children: [],
         },
@@ -43,8 +45,10 @@ export default new Router({
                 default: () => import('@/views/Shtaketnik.vue')
             },
             meta: {
-                title: 'Штакетник',
-                description: '',
+                title: 'Забор из Евроштакетника',
+                description: 'Забор вокруг собственного участка или дома должен не только\n' +
+                    'обозначать границы, но быть долговечным и красивым!' +
+                    'Установка забора из евроштакетника, высота от 1.5м до 2м.',
             },
             children: [],
         },
@@ -59,8 +63,10 @@ export default new Router({
                 default: () => import('@/views/Rabica.vue')
             },
             meta: {
-                title: 'Рабица',
-                description: '',
+                title: 'Забор из сетки-рабица',
+                description: 'Забор из сетки-рабица является самым популярным типом ограждения,\n' +
+                    'благодаря своему удобству и практичности.' +
+                    'Установка забора из сетки-рабица, высота от 1.5м до 2м.',
             },
             children: [],
         },
@@ -75,8 +81,10 @@ export default new Router({
                 default: () => import('@/views/Proflist.vue')
             },
             meta: {
-                title: 'Профлист',
-                description: '',
+                title: 'Забор из профлиста',
+                description: 'Забор из профлиста является хорошим решением,\n' +
+                    'когда необходимо быстро построить качественное сплошное ограждение!' +
+                    'Установка забора из профлиста, высота от 1.5м до 2м.',
             },
             children: [],
         },
@@ -91,8 +99,10 @@ export default new Router({
                 default: () => import('@/views/3D.vue')
             },
             meta: {
-                title: '3D',
-                description: '',
+                title: 'Забор из 3D-сетки',
+                description: 'Современный тип заборов с дополнительным изгибом\n' +
+                    'для увеличения прочности и надежности.' +
+                    'Установка забора из 3D-сетки, высота от 1.5м до 2м.',
             },
             children: [],
         },
@@ -107,8 +117,9 @@ export default new Router({
                 default: () => import('@/views/Kalitka.vue')
             },
             meta: {
-                title: 'Калитки',
-                description: '',
+                title: 'Установка калитки',
+                description: 'Калитка является необходимым элементом для любого огороженного участка.' +
+                    'Установка калитки из профлиста, евроштакетника, сетки-рабица, 3D-сетки. С врезным замком',
             },
             children: [],
         },
@@ -123,8 +134,10 @@ export default new Router({
                 default: () => import('@/views/Vorota.vue')
             },
             meta: {
-                title: 'Ворота',
-                description: '',
+                title: 'Установка ворот',
+                description: 'Обязательным элементом двора являются ворота.\n' +
+                    'Они подарят удобства и функционалность вашему загородному участку!' +
+                    'Установка ворот из профлиста, евроштакетника, сетки-рабица, 3D-сетки.',
             },
             children: [],
         },
@@ -138,8 +151,10 @@ export default new Router({
                 default: () => import('@/views/Otkatnye.vue')
             },
             meta: {
-                title: 'Откатные',
-                description: '',
+                title: 'Откатные ворота',
+                description: 'Откатные ворота не занимают полезного пространства\n' +
+                    'вашего участка, во время их открывания.' +
+                    'Установка механических и автоматических ворот.',
             },
             children: [],
         },
@@ -153,8 +168,9 @@ export default new Router({
                 default: () => import('@/views/Raspashnye.vue')
             },
             meta: {
-                title: 'Откатные',
-                description: '',
+                title: 'Распашные ворота',
+                description: 'Самый приемлимый по цене, популярный и классический вид ворот.' +
+                    'Установка распашных ворот из профлиста, евроштакетника, сетки-рабица, 3D-сетки.',
             },
             children: [],
         },
@@ -169,22 +185,7 @@ export default new Router({
             },
             meta: {
                 title: 'Контакты',
-                description: '',
-            },
-            children: [],
-        },
-        {
-            path: '/Zapros',
-            name: 'Zapros',
-            components: {
-                header: Header,
-                footer: Footer,
-                //aside: Aside,
-                default: () => import('@/views/Zapros.vue')
-            },
-            meta: {
-                title: 'Запрос',
-                description: '',
+                description: 'Мы проконсультируем Вас по всем возможным вопросам и предложим лучший вариант исходя из конкретно вашего случая и пожеланий.',
             },
             children: [],
         },
@@ -199,7 +200,8 @@ export default new Router({
             },
             meta: {
                 title: 'Оцинкованный профлист',
-                description: '',
+                description: 'Данный материал популярен своей невысокой стоимостью и широтой применения.' +
+                    'Установка забора из оцинкованного профлиста, высота от 1.5м до 2м.',
             },
             children: [],
         },
@@ -214,7 +216,8 @@ export default new Router({
             },
             meta: {
                 title: 'Полимерный профлист',
-                description: '',
+                description: 'Лист покрыт цветным полимером с одной стороны. Сниженная цена' +
+                    'Установка забора из полимерного профлиста, высота от 1.5м до 2м.',
             },
             children: [],
         },
@@ -229,7 +232,8 @@ export default new Router({
             },
             meta: {
                 title: 'Двухсторонний полимерный профлист',
-                description: '',
+                description: 'Лист покрыт цветным полимером с обеих сторон.' +
+                    'Установка забора из двухстороннего полимерного профлиста, высота от 1.5м до 2м.',
             },
             children: [],
         },
@@ -244,7 +248,8 @@ export default new Router({
             },
             meta: {
                 title: 'Декоративный профлист',
-                description: '',
+                description: 'Данный вид ограждения имеет ряд преимуществ: он не горит и не гниет.' +
+                    'Установка забора из декоративного профлиста, высота от 1.5м до 2м.',
             },
             children: [],
         },
@@ -259,7 +264,9 @@ export default new Router({
             },
             meta: {
                 title: 'Евроштакетник',
-                description: '',
+                description: 'Плюс такого забора в том, что участок не просто защищен,\n' +
+                    'а еще хорошо освещается и проветривается' +
+                    'Установка забора из евроштакетника, высота от 1.5м до 2м.',
             },
             children: [],
         },
@@ -273,26 +280,23 @@ export default new Router({
                 default: () => import('@/views/Shahmatka.vue')
             },
             meta: {
-                title: 'Евроштакетник',
-                description: '',
+                title: 'Евроштакетник-шахматка',
+                description: 'Данный вид ограждения выполняется при помощи металлического штакетника,\n' +
+                    'расположенного в шахматном порядке.\n' +
+                    'Установка забора из евроштакетника-шахматка, высота от 1.5м до 2м.',
             },
             children: [],
         },
-        {
-            path: '/test',
-            name: 'test',
-            components: {
-                header: Header,
-                footer: Footer,
-                //aside: Aside,
-                default: () => import('@/views/Test.vue')
-            },
-            meta: {
-                title: 'Test',
-                description: '',
-            },
-            children: [],
-        }
-
     ]
-})
+});
+router.beforeEach((to, from, next) => {
+    document.title = to.meta.title;
+
+    let meta = document.createElement('meta');
+    meta.name = "description";
+    meta.content = to.meta.description;
+    document.getElementsByTagName('head')[0].appendChild(meta);
+
+    next()
+});
+export default router;

@@ -40,4 +40,15 @@
     .footer-content .info > div {
         color: #ffffff;
     }
+    @media screen and (max-width: 690px) {
+        div.info {
+            font-size: 12px;
+        }
+        div.info > div:nth-of-type(3) {
+            font-size: 8px;
+        }
+        div.icon img {
+            width: 38px;
+        }
+    }
 </style>

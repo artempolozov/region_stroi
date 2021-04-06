@@ -1,7 +1,5 @@
 <template>
     <div>
-        <div class="page-desc">
-        </div>
         <div class="wework">
             <div class="item">
                 <div class="pictures">
@@ -24,38 +22,97 @@
 
 <style scoped>
     .wework {
-        display: inline-block;
-        margin:auto;
+        display: flex;
+        margin: auto;
+        justify-content: center;
+        width: 100%;
     }
     .wework img {
         width: 480px;
-        margin-right: 10px;
-        margin-left: 60px;
     }
     .pictures .desc {
         display: inline-block;
         font-weight: normal;
         font-size: 21px;
         color: rgb(78, 78, 78);
-        font-family: HelveticaNeueCyr;
         position: relative;
+        white-space: pre-line;
+        font-family: HelveticaNeueCyr;
     }
     .pictures {
         display: flex;
         align-items: center;
     }
-    .page-desc {
-        height: 15px;
-        width: 100%;
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        place-items: center;
-        -webkit-box-sizing: border-box;
-        box-sizing: border-box;
-        text-align: center;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
-        justify-content: center;
+    @media screen and (max-width: 1140px) {
+
+    }
+    @media screen and (max-width: 960px) {
+        div .wework {
+            display: flex;
+            width: 100%;
+            justify-content: center;
+        }
+        div .wework img {
+            width: 300px;
+        }
+        div .pictures .desc {
+            font-size: 16px;
+        }
+    }
+    @media screen and (max-width: 690px) {
+        div .wework {
+            display: flex;
+            width: 100%;
+            justify-content: center;
+        }
+        div .wework img {
+            width: 180px;
+        }
+        div .pictures .desc {
+            font-size: 14px;
+        }
+    }
+    @media screen and (max-width: 520px) {
+        div .wework {
+            display: flex;
+            width: 100%;
+            justify-content: center;
+        }
+        div .wework img {
+            width: 180px;
+        }
+        div .pictures .desc {
+            font-size: 14px;
+        }
+    }
+    @media screen and (max-width: 416px) {
+        div .pictures {
+            display: inline-grid;
+        }
+        div .pictures .desc {
+            font-size: 14px;
+            text-align: center;
+        }
+        div .wework img {
+            width: 180px;
+            margin-right: 0;
+            position: relative;
+            left: 20px;
+        }
+    }
+    @media screen and (max-width: 375px) {
+        div .pictures {
+            display: inline-grid;
+        }
+        div .pictures .desc {
+            font-size: 14px;
+            text-align: center;
+        }
+        div .wework img {
+            width: 180px;
+            margin-right: 0;
+            position: relative;
+            left: 20px;
+        }
     }
 </style>

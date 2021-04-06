@@ -1,12 +1,11 @@
 <template>
 <div>
         <div class="another-block1">
-            <div class="text-right3">РАСПАШНЫЕ / ОТКАТНЫЕ ВОРОТА</div>
-            <pre class="text-right4">Обязательным элементом двора являются ворота.
-Они подарят удобства и функционалность вашему загородному участку!</pre>
+            <div class="text-right3">Распашные / откатные ворота</div>
+            <div class="text-right4">Обязательным элементом двора являются ворота.</div>
+            <div class="text-right4">Они подарят удобства и функционалность вашему загородному участку!</div>
         </div>
-    <div class="views--home" style="height: 370px">
-        <div class="page-description3"></div>
+    <div class="views--home">
         <span class="down-text">ВЫБЕРИТЕ ТИП ВОРОТ:</span>
 
         <div class="row1">
@@ -18,6 +17,12 @@
                 <img src="@/assets/images/otkat.jpg">
                 <span class="title1">Откатные</span>
             </div>
+        </div>
+    </div>
+
+    <div>
+        <div class="page-description">
+            <span>Фотографии ворот:</span>
         </div>
     </div>
 </div>
@@ -42,120 +47,56 @@
     };
 </script>
 <style scoped>
-    .page-description1 {
-        height: 110px;
+    .page-description >span {
+        height: 80px;
         width: 100%;
-        display: -webkit-box;
-        display: -ms-flexbox;
         display: flex;
         place-items: center;
-        -webkit-box-sizing: border-box;
         box-sizing: border-box;
         text-align: center;
         justify-content: center;
     }
-    pre.order-text1 {
-        display: inline-block;
-        font-family: HelveticaNeueCyr;
-        color: rgb(78, 78, 78);
-        font-size: 16px;
-        border-bottom: 1px solid rgba(66, 66, 66, 0.21);
+    .page-description > span {
+        font-weight: bolder;
+        font-size: 18px;
+        text-transform: uppercase;
     }
     .down-text {
-        font-family: HelveticaNeueCyr;
-        color: rgb(78, 78, 78);
+        color: rgb(0, 0, 0);
         display: flex;
         justify-content: space-around;
-        height: 10px;
+        font-weight: bolder;
+        font-size: 18px;
+        text-transform: uppercase;
     }
     .tile1.common1 img {
         width: 100%;
-    }
-    .tile1.common1 .description {
-        display: block;
-        text-align: center;
     }
     .row1 {
         display: flex;
         justify-content: center;
     }
-    .row2 {
-        display: flex;
-        justify-content: center;
-        position: relative;
-        bottom: 40px;
-    }
     .title1 {
         font-weight: normal;
         text-transform: uppercase;
         font-size: 14px;
-        font-family: HelveticaNeueCyr;
         text-align: center;
-        position: relative;
-        top: 7px;
-    }
-    .description {
-        font-size: 13px;
+        display: block;
+        margin-top: 8px;
         color: rgb(78, 78, 78);
-        border-bottom: 1px solid rgba(66, 66, 66, 0.21);
     }
     .tile1 {
         width: 306px;
-        height: 280px;
-        margin: 25px;
+        margin: 25px 25px 0px 25px;
         padding: 10px;
         display: inline-block;
         box-sizing: border-box;
-        font-family: HelveticaNeueCyr;
         text-align: center;
     }
     .tile1 img:hover {
-        webkit-transform: scale(1.01);
-        ms-transform: scale(1.01);
         transform: scale(1.01);
         cursor: pointer;
         box-shadow: 0 2px 8px rgba(130, 128, 128, 0.15), 0 4px 22px rgba(130, 130, 130, 0.12);
-    }
-    .page-description2 {
-        height: 100px;
-        width: 100%;
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        place-items: center;
-        -webkit-box-sizing: border-box;
-        box-sizing: border-box;
-        text-align: center;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
-        justify-content: center;
-    }
-    .icon .description {
-        display: inline-block;
-        font-size: 16px;
-        color: rgb(78, 78, 78);
-        font-family: HelveticaNeueCyr;
-    }
-    .icon {
-        display: flex;
-        align-items: center;
-    }
-    .icon img {
-        width: 60px;
-        position: relative;
-        bottom: 10px;
-        right: 16px;
-    }
-    .page-description3 {
-        height: 25px;
-        width: 100%;
-        display: flex;
-        place-items: center;
-        box-sizing: border-box;
-        text-align: center;
-        justify-content: center;
-        position: relative;
-        bottom: 6px;
     }
     .another-block1 {
         height: 180px;
@@ -167,17 +108,103 @@
         display: flex;
         flex-flow: column;
         justify-content: center;
+        margin-bottom: 30px;
     }
     .text-right4 {
         color: #eaeaea;
         font-size: 16px;
         font-weight: normal;
-        font-family: HelveticaNeueCyr;
-        margin: 1px;
     }
     .text-right3 {
         color: white;
         font-size: 33px;
         font-weight: bold;
+        margin-bottom: 8px;
+    }
+
+    @media screen and (max-width: 690px) {
+        div .page-description > span {
+            font-size: 17px;
+        }
+        div .another-block1 {
+            margin-top: 23px;
+            height: 160px;
+        }
+        div .text-right3 {
+            font-size: 27px;
+        }
+        div .text-right4 {
+            font-size: 14px;
+        }
+        div .down-text {
+            font-size: 15px;
+        }
+        div .title1 {
+            font-size: 13px;
+        }
+        div .tile1.common1 {
+            margin: 25px 20px 0px 20px;
+        }
+    }
+    @media screen and (max-width: 520px) {
+        div .page-description > span {
+            font-size: 15px;
+        }
+        div .another-block1 {
+            height: 150px;
+        }
+        div .tile1.common1 {
+            padding: 0px;
+            margin: 25px 20px 0px 20px;
+        }
+        div .text-right3 {
+            font-size: 19px;
+        }
+        div .text-right4 {
+            font-size: 10px;
+            display: none;
+        }
+        div .down-text {
+            font-size: 14px;
+        }
+        div .title1 {
+            font-size: 12px;
+        }
+    }
+    @media screen and (max-width: 416px) {
+        div .another-block1 {
+            height: 120px;
+        }
+        div .text-right3 {
+            font-size: 18px;
+        }
+        div .text-right4 {
+            font-size: 9px;
+            margin-top: 4px;
+        }
+        div .down-text {
+            font-size: 13px;
+        }
+        div .title1 {
+            font-size: 10px;
+        }
+    }
+    @media screen and (max-width: 375px) {
+        div .another-block1 {
+            height: 120px;
+        }
+        div .text-right3 {
+            font-size: 17px;
+        }
+        div .text-right4 {
+            font-size: 8px;
+            margin-top: 4px;
+        }
+        div .down-text {
+            font-size: 13px;
+        }
+        div .title1 {
+            font-size: 10px;
+        }
     }
 </style>

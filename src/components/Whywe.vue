@@ -1,5 +1,5 @@
 <template>
-    <div>
+<div>
     <div>
         <div class="page-description">
             <span>Почему люди выбирают нас?</span>
@@ -8,32 +8,31 @@
 
     <div class="block">
         <div class="block1">
-            <div class="text1">7</div>
-            <div class="text2">ЛЕТ</div>
-                <div class="b1">
-                <div>Более 7 лет опыта<br>в сфере строительных услуг!</div>
-                </div>
+            <span class="text1">7</span>
+            <span class="text2">ЛЕТ</span>
+            <span class="b1">Более 7 лет опыта<br>в сфере строительных услуг!</span>
         </div>
 
         <div class="block2">
-            <div class="text1">400</div>
-            <div class="text2">КЛИЕНТОВ</div>
-                <div class="b1">
-                <div>Более четырехсот<br>довольных клиентов!</div>
-                </div>
+            <span class="text1">400</span>
+            <span class="text2">КЛИЕНТОВ</span>
+            <span class="b1">Более четырехсот<br>довольных клиентов!</span>
         </div>
 
         <div class="block3">
-            <div class="text1">50000</div>
-                <div class="text2">МЕТРОВ</div>
-                <div class="b1">
-                <div>Более 50000 м/п<br>установленных ограждений!</div>
-            </div>
+            <span class="text1">50000</span>
+            <span class="text2">МЕТРОВ</span>
+            <span class="b1">Более 50000 м/п<br>установленных ограждений!</span>
         </div>
     </div>
-        <div class="page-description2">
+
+    <div>
+        <div class="page-description">
+            <span>Фотографии ограждений:</span>
         </div>
     </div>
+
+</div>
 </template>
 
 <script>
@@ -54,72 +53,107 @@
     }
     .page-description > span {
         font-weight: bolder;
-        font-size: 20px;
+        font-size: 18px;
         text-transform: uppercase;
-    }
-    .page-description2 {
-        height: 0px;
-        width: 100%;
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        place-items: center;
-        -webkit-box-sizing: border-box;
-        box-sizing: border-box;
-        text-align: center;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
-        justify-content: center;
     }
     .block {
         width: 900px;
         height: 200px;
-        margin:auto;
+        margin: auto;
+        display: block;
     }
     .block1 {
         width: 300px;
-        height: 200px;
         float: left;
+        display: block;
     }
     .block2 {
         width: 300px;
-        height: 200px;
         float: left;
     }
     .block3 {
         width: 300px;
-        height: 200px;
         float: left;
     }
     .b1 {
-        height: 100px;
-        float: left;
         font-size: 16px;
         text-align: center;
-        display: table;
-        width: 100%;
         font-weight: normal;
-        position: relative;
-        top: 6px;
+        display: block;
     }
     .text1 {
-         white-space: pre-line;
          font-weight: bold;
          color: rgb(226, 28, 33);
          font-size: 75px;
          text-align: center;
-         display: table;
-         width: 100%;
+         display: block;
          position: relative;
-         top: 12px;
-         }
+         top: 6px;
+     }
     .text2 {
-        white-space: pre-line;
         font-weight: bold;
         color: rgb(226, 28, 33);
         font-size: 30px;
         text-align: center;
-        display: table;
-        width: 100%;
+        display: block;
+    }
+    @media screen and (max-width: 960px) {
+        div .page-description > span {
+            font-size: 20px;
+        }
+        div .block {
+            display: inline;
+            position: relative;
+            bottom: 18px;
+        }
+        div .block1 {
+            display: contents;
+        }
+        div .block2 {
+            display: contents;
+        }
+        div .block3 {
+            display: contents;
+        }
+        div .text1{
+            font-size: 55px;
+        }
+        div .text2 {
+            font-size: 25px;
+        }
+        div .b1 {
+            font-size: 16px;
+        }
+    }
+
+    @media screen and (max-width: 690px) {
+        div .page-description > span {
+            font-size: 17px;
+        }
+        div .text1{
+            font-size: 45px;
+        }
+        div .text2 {
+            font-size: 20px;
+        }
+        div .b1 {
+            font-size: 12px;
+            margin-bottom: 10px;
+        }
+    }
+
+    @media screen and (max-width: 520px) {
+        div .page-description > span {
+            font-size: 15px;
+        }
+        div .text1{
+            font-size: 45px;
+        }
+        div .text2 {
+            font-size: 20px;
+        }
+        div .b1 {
+            font-size: 12px;
+        }
     }
 </style>

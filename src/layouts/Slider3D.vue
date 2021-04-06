@@ -62,4 +62,27 @@
     .slick-center {
         filter: blur(0);
     }
+    @media screen and (max-width: 690px) {
+        div .slider-container img {
+            height: 400px;
+        }
+    }
+    @media screen and (max-width: 520px) {
+        div .slider-container img {
+            height: 350px;
+            width: 500px;
+        }
+    }
+    @media screen and (max-width: 416px) {
+        div .slider-container img {
+            height: 300px;
+            width: 450px;
+        }
+    }
+    @media screen and (max-width: 375px) {
+        div .slider-container img {
+            height: 250px;
+            width: 400px;
+        }
+    }
 </style>

@@ -1,12 +1,17 @@
 <template>
     <div class="order">
-        <div class="order-button">Отправить запрос</div>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <div @click="toggleForm" class="order-button">Заявка на замер</div>
     </div>
 </template>
 
 <script>
     export default {
+        methods:{
+            toggleForm(){
+               var form = document.getElementById("feedback");
+                form.style.display = (form.style.display == 'none') ? 'block' : 'none'
+            }
+        },
         name: "Contacts"
     }
 </script>
@@ -17,7 +22,7 @@
         margin: 10px 0;
     }
     .header-content .order {
-        border-left: 1px solid rgba(66, 66, 66, 0.21);
+        border-left: 0px solid rgba(66, 66, 66, 0.21);
     }
     .order-button {
         color: white;
@@ -26,14 +31,26 @@
         width: 165px;
         border-radius: 15px;
         font-weight: bold;
-        font-size: 12px;
+        font-size: 14px;
         justify-content: center;
         display: flex;
         align-items: center;
         text-transform: uppercase;
+        transition: background-color 0.2s ease-in;
     }
     .order-button:hover {
         background-color: rgb(208, 25, 30);
         cursor: pointer;
+        transition: background-color 0.2s ease-in;
+    }
+    .order-button::selection {
+        background: transparent;
+    }
+    @media screen and (max-width: 690px) {
+        div .order-button {
+            height: 40px;
+            width: 150px;
+            font-size: 12px;
+        }
     }
 </style>

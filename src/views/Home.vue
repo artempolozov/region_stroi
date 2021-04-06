@@ -1,8 +1,6 @@
 <template>
     <div class="views--home">
-        <div class="row">
-        </div>
-        <div class="row">
+        <div class="card-list">
             <div class="tile common" v-on:click="goToPage('proflist')">
                 <img src="@/assets/images/proflist.jpg">
                 <span class="title">Забор из профлиста</span>
@@ -19,8 +17,7 @@
                 <span class="title">Забор из Сетки рабица</span>
                 <span class="description">Цвет: Цинк / зеленый</span>
             </div>
-        </div>
-        <div class="row">
+
             <div class="tile common" v-on:click="goToPage('3D')">
                 <img src="@/assets/images/3D.jpg">
                 <span class="title">Забор из 3D-сетки</span>
@@ -71,34 +68,20 @@ export default {
         max-width: 980px;
         margin: auto;
     }
-    .page-description {
-        height: 80px;
-        width: 100%;
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        place-items: center;
-        -webkit-box-sizing: border-box;
-        box-sizing: border-box;
-        text-align: center;
-        justify-content: center;
-    }
     .page-description > span {
 		font-weight: bolder;
         font-size: 20px;
         text-transform: uppercase;
     }
 
-    .row {
-        display: flex;
+    .card-list {
         justify-content: space-between;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(315px, 1fr));
     }
     .tile {
-        width: 306px;
-		height: 280px;
         margin: 11px;
         padding: 20px;
-        display: inline-block;
 		box-sizing: border-box;
         font-family: HelveticaNeueCyr;
     }
@@ -107,7 +90,7 @@ export default {
 		ms-transform: scale(1.01);
 		transform: scale(1.01);
 		cursor: pointer;
-        box-shadow: 0 2px 8px rgba(130, 128, 128, 0.15), 0 4px 22px rgba(130, 130, 130, 0.12);
+        box-shadow: 0 2px 8px rgba(175, 173, 173, 0.15), 0 4px 22px rgba(165, 165, 165, 0.12);
 	}
 	.tile.common {
 		border-top: 3px solid rgb(226, 28, 33);
@@ -142,19 +125,98 @@ export default {
         white-space: nowrap;
         margin-bottom: 30px
     }
-
 	.tile.special {
 		background-color: rgb(226, 28, 33);
 		padding: 30px;
 	}
-    .full-description {
-        white-space: pre-line;
-        font-family: inherit;
-        color: white;
-        font-size: 14px;
-    }
     .description {
         font-size: 13px;
         color: rgb(78, 78, 78);
+    }
+    @media screen and (max-width: 690px) {
+        div.card-list {
+            grid-template-columns: repeat(auto-fit, minmax(299px, 1fr));
+            margin: 20px 0px 0px 0px;
+        }
+    }
+    @media screen and (max-width: 640px) {
+        div.card-list {
+            grid-template-columns: repeat(auto-fit, minmax(299px, 1fr));
+        }
+    }
+    @media screen and (max-width: 614px) {
+        div.card-list {
+            grid-template-columns: repeat(auto-fit, minmax(201px, 1fr));
+        }
+    }
+    @media screen and (max-width: 615px) {
+        div.card-list {
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        }
+        span.title {
+            font-size: 11px;
+        }
+        span.description {
+            font-size: 10px;
+        }
+        div .tile {
+            padding: 15px;
+        }
+    }
+    @media screen and (max-width: 520px) {
+        div.card-list {
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        }
+        span.title {
+            font-size: 11px;
+        }
+        span.description {
+            font-size: 10px;
+        }
+        div .tile {
+            padding: 12px;
+        }
+    }
+    @media screen and (max-width: 416px) {
+        div.card-list {
+            grid-template-columns: repeat(auto-fit, minmax(199px, 1fr));
+        }
+        span.title {
+            font-size: 10px;
+        }
+        span.description {
+            font-size: 9px;
+        }
+        div .tile {
+            padding: 10px;
+        }
+    }
+    @media screen and (max-width: 414px) {
+        div.card-list {
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        }
+        span.title {
+            font-size: 10px;
+        }
+        span.description {
+            font-size: 9px;
+        }
+        div .tile {
+            padding: 10px;
+        }
+    }
+    @media screen and (max-width: 375px) {
+        div.card-list {
+            grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+        }
+        span.title {
+            font-size: 10px;
+        }
+        span.description {
+            font-size: 9px;
+        }
+        div .tile {
+            padding: 10px;
+        }
     }
 </style>
