@@ -10,11 +10,11 @@
 
         <div class="row1">
             <div class="tile1 common1" v-on:click="goToPage('raspashnye')">
-                <img src="@/assets/images/raspash.jpg">
+                <img src="@/assets/images/raspash.webp">
                 <span class="title1">Распашные</span>
             </div>
             <div class="tile1 common1" v-on:click="goToPage('otkatnye')">
-                <img src="@/assets/images/otkat.jpg">
+                <img src="@/assets/images/otkat.webp">
                 <span class="title1">Откатные</span>
             </div>
         </div>
@@ -101,7 +101,7 @@
     .another-block1 {
         height: 180px;
         background-color: black;
-        background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(~@/assets/images/vorotatop.jpg);
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(~@/assets/images/vorotatop.webp);
         background-size: cover;
         background-position: center;
         text-align: center;

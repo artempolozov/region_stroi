@@ -99,7 +99,7 @@
     .desc {
         color: rgb(109, 109, 109);
         font-size: 13px;
-        padding: 20px;
+        padding: 20px 20px 0 0;
         text-align: left;
         font-family: HelveticaNeueCyr;
     }

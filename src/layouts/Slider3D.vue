@@ -1,13 +1,13 @@
 <template>
     <div class="slider-container">
         <slick ref="slick" :options="slickOptions">
-            <div href="http://placehold.it/2000x1000"><img src="@/assets/images/slider/3D/gitter1.jpg" alt=""></div>
-            <div href="http://placehold.it/2000x1000"><img src="@/assets/images/slider/3D/gitter2.jpg" alt=""></div>
-            <div href="http://placehold.it/2000x1000"><img src="@/assets/images/slider/3D/gitter3.jpg" alt=""></div>
-            <div href="http://placehold.it/2000x1000"><img src="@/assets/images/slider/3D/gitter4.jpg" alt=""></div>
-            <div href="http://placehold.it/2000x1000"><img src="@/assets/images/slider/3D/gitter5.jpg" alt=""></div>
-            <div href="http://placehold.it/2000x1000"><img src="@/assets/images/slider/3D/gitter6.jpg" alt=""></div>
-            <div href="http://placehold.it/2000x1000"><img src="@/assets/images/slider/3D/gitter7.jpg" alt=""></div>
+            <div href="http://placehold.it/2000x1000"><img src="@/assets/images/slider/3D/gitter1.webp" alt=""></div>
+            <div href="http://placehold.it/2000x1000"><img src="@/assets/images/slider/3D/gitter2.webp" alt=""></div>
+            <div href="http://placehold.it/2000x1000"><img src="@/assets/images/slider/3D/gitter3.webp" alt=""></div>
+            <div href="http://placehold.it/2000x1000"><img src="@/assets/images/slider/3D/gitter4.webp" alt=""></div>
+            <div href="http://placehold.it/2000x1000"><img src="@/assets/images/slider/3D/gitter5.webp" alt=""></div>
+            <div href="http://placehold.it/2000x1000"><img src="@/assets/images/slider/3D/gitter6.webp" alt=""></div>
+            <div href="http://placehold.it/2000x1000"><img src="@/assets/images/slider/3D/gitter7.webp" alt=""></div>
         </slick>
     </div>
 </template>

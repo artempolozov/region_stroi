@@ -20,6 +20,8 @@
     .location {
         text-transform: uppercase;
         margin: 18px;
+        display: flex;
+        align-items: center;
     }
     .icon {
         float: left;

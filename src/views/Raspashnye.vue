@@ -17,7 +17,7 @@
                 </div>
                 <div class="box-right">
                     <div class="text-right2">Цена: </div>
-                    <div class="text-right">от 8490 руб.</div>
+                    <div class="text-right">от 11490 руб.</div>
                 </div>
             </div>
 
@@ -32,8 +32,8 @@
                 </div>
                 <div class="box-right">
                     <div class="text-right2">Цена: </div>
-                    <div class="text-right">от 9190 руб.</div>
-                    <strike class="text-down">от 9990 руб.</strike>
+                    <div class="text-right">от 12190 руб.</div>
+                    <strike class="text-down">от 12990 руб.</strike>
                 </div>
             </div>
 
@@ -48,7 +48,7 @@
                 </div>
                 <div class="box-right">
                     <div class="text-right2">Цена: </div>
-                    <div class="text-right">от 9990 руб.</div>
+                    <div class="text-right">от 12990 руб.</div>
                 </div>
             </div>
 
@@ -63,7 +63,7 @@
                 </div>
                 <div class="box-right">
                     <div class="text-right2">Цена: </div>
-                    <div class="text-right">от 10990 руб.</div>
+                    <div class="text-right">от 13990 руб.</div>
                 </div>
             </div>
         </div>
@@ -118,16 +118,16 @@
         background-position: center !important;
     }
     #box-1 .box-left {
-        background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(~@/assets/images/raspashrabica.jpg);
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(~@/assets/images/raspashrabica.webp);
     }
     #box-2 .box-left {
-        background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(~@/assets/images/raspahprof.jpeg);
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(~@/assets/images/raspahprof.webp);
     }
     #box-3 .box-left {
-        background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(~@/assets/images/raspash3d.jpg);
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(~@/assets/images/raspash3d.webp);
     }
     #box-4 .box-left {
-        background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(~@/assets/images/raspashshtak.jpg);
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(~@/assets/images/raspashshtak.webp);
     }
     .caption {
         width: 100%;
@@ -167,7 +167,7 @@
     .another-block1 {
         height: 180px;
         background-color: black;
-        background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(~@/assets/images/raspashtop.jpg);
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(~@/assets/images/raspashtop.webp);
         background-size: cover;
         background-position: center;
         text-align: center;

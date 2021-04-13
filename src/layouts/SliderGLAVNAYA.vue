@@ -1,17 +1,17 @@
 <template>
     <div class="slider-container">
         <slick ref="slick" :options="slickOptions">
-            <div href="http://placehold.it/2000x1000"><img src="@/assets/images/slider/Glavnaya/glavnaya1.jpg" alt=""></div>
-            <div href="http://placehold.it/2000x1000"><img src="@/assets/images/slider/Glavnaya/glavnaya2.jpg" alt=""></div>
-            <div href="http://placehold.it/2000x1000"><img src="@/assets/images/slider/Glavnaya/glavnaya3.jpeg" alt=""></div>
-            <div href="http://placehold.it/2000x1000"><img src="@/assets/images/slider/Glavnaya/glavnaya4.jpg" alt=""></div>
-            <div href="http://placehold.it/2000x1000"><img src="@/assets/images/slider/Glavnaya/glavnaya5.jpg" alt=""></div>
-            <div href="http://placehold.it/2000x1000"><img src="@/assets/images/slider/Glavnaya/glavnaya6.jpg" alt=""></div>
-            <div href="http://placehold.it/2000x1000"><img src="@/assets/images/slider/Glavnaya/glavnaya7.jpg" alt=""></div>
-            <div href="http://placehold.it/2000x1000"><img src="@/assets/images/slider/Glavnaya/glavnaya8.jpg" alt=""></div>
-            <div href="http://placehold.it/2000x1000"><img src="@/assets/images/slider/Glavnaya/glavnaya9.jpg" alt=""></div>
-            <div href="http://placehold.it/2000x1000"><img src="@/assets/images/slider/Glavnaya/glavnaya10.jpg" alt=""></div>
-            <div href="http://placehold.it/2000x1000"><img src="@/assets/images/slider/Glavnaya/glavnaya11.jpeg" alt=""></div>
+            <div href="http://placehold.it/2000x1000"><img src="@/assets/images/slider/Glavnaya/glavnaya1.webp" alt=""></div>
+            <div href="http://placehold.it/2000x1000"><img src="@/assets/images/slider/Glavnaya/glavnaya2.webp" alt=""></div>
+            <div href="http://placehold.it/2000x1000"><img src="@/assets/images/slider/Glavnaya/glavnaya3.webp" alt=""></div>
+            <div href="http://placehold.it/2000x1000"><img src="@/assets/images/slider/Glavnaya/glavnaya4.webp" alt=""></div>
+            <div href="http://placehold.it/2000x1000"><img src="@/assets/images/slider/Glavnaya/glavnaya5.webp" alt=""></div>
+            <div href="http://placehold.it/2000x1000"><img src="@/assets/images/slider/Glavnaya/glavnaya6.webp" alt=""></div>
+            <div href="http://placehold.it/2000x1000"><img src="@/assets/images/slider/Glavnaya/glavnaya7.webp" alt=""></div>
+            <div href="http://placehold.it/2000x1000"><img src="@/assets/images/slider/Glavnaya/glavnaya8.webp" alt=""></div>
+            <div href="http://placehold.it/2000x1000"><img src="@/assets/images/slider/Glavnaya/glavnaya9.webp" alt=""></div>
+            <div href="http://placehold.it/2000x1000"><img src="@/assets/images/slider/Glavnaya/glavnaya10.webp" alt=""></div>
+            <div href="http://placehold.it/2000x1000"><img src="@/assets/images/slider/Glavnaya/glavnaya11.webp" alt=""></div>
         </slick>
     </div>
 </template>

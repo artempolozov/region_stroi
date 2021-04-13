@@ -18,7 +18,6 @@
 
             <div class="block-right">
                 <div class="number">+7 920 535-28-06</div>
-                <div class="number">+7 952 591-33-70</div>
                 <div class="time-work">Без выходных с 9:00 до 21:00</div>
             </div>
         </div>
@@ -154,7 +153,7 @@ export default {
     .cover {
         height: 180px;
         background-color: black;
-        background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(~@/assets/images/contacttop.jpg);
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(~@/assets/images/contacttop.webp);
         background-size: cover;
         background-position: center;
         text-align: center;
@@ -311,9 +310,10 @@ export default {
         background: transparent;
     }
     .form-status-contact{
-        font-size: 15px;
+        font-size: 17px;
         font-family: HelveticaNeueCyr;
-        color: rgb(78, 78, 78);
+        color: green;
+        text-align: center;
     }
     @media screen and (max-width: 1124px) {
         div .content {

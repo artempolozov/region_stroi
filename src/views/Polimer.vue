@@ -16,8 +16,8 @@
             </div>
             <div class="box-right">
                 <div class="text-right2">Цена: </div>
-                <div class="text-right">м/п от 1140 руб.</div>
-                <strike class="text-down">м/п от 1190 руб.</strike>
+                <div class="text-right">м/п от 1240 руб.</div>
+                <strike class="text-down">м/п от 1290 руб.</strike>
             </div>
         </div>
 
@@ -32,8 +32,8 @@
             </div>
             <div class="box-right">
                 <div class="text-right2">Цена: </div>
-                <div class="text-right">м/п от 1340 руб.</div>
-                <strike class="text-down">м/п от 1390 руб.</strike>
+                <div class="text-right">м/п от 1540 руб.</div>
+                <strike class="text-down">м/п от 1590 руб.</strike>
             </div>
         </div>
 
@@ -48,8 +48,8 @@
             </div>
             <div class="box-right">
                 <div class="text-right2">Цена: </div>
-                <div class="text-right">м/п от 1390 руб.</div>
-                <strike class="text-down">м/п от 1440 руб.</strike>
+                <div class="text-right">м/п от 1590 руб.</div>
+                <strike class="text-down">м/п от 1610 руб.</strike>
             </div>
         </div>
     </div>
@@ -104,13 +104,13 @@
         background-position: center !important;
     }
     #box-1 .box-left {
-        background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(~@/assets/images/prof1.jpg);
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(~@/assets/images/prof1.webp);
     }
     #box-2 .box-left {
-        background: linear-gradient(to right,rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(~@/assets/images/prof2.jpg);
+        background: linear-gradient(to right,rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(~@/assets/images/prof2.webp);
     }
     #box-3 .box-left {
-        background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(~@/assets/images/prof3.png);
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(~@/assets/images/prof3.webp);
     }
     .caption {
         width: 100%;
@@ -150,7 +150,7 @@
     .another-block1 {
         height: 180px;
         background-color: black;
-        background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(~@/assets/images/polimertop.jpg);
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(~@/assets/images/polimertop.webp);
         background-size: cover;
         background-position: center;
         text-align: center;

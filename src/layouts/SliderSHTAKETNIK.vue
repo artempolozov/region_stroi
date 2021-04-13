@@ -1,14 +1,14 @@
 <template>
     <div class="slider-container">
         <slick ref="slick" :options="slickOptions">
-            <div href="http://placehold.it/2000x1000"><img src="@/assets/images/slider/Shtaketnik/shtaketnik8.jpg" alt=""></div>
-            <div href="http://placehold.it/2000x1000"><img src="@/assets/images/slider/Shtaketnik/shtaketnik2.jpg" alt=""></div>
-            <div href="http://placehold.it/2000x1000"><img src="@/assets/images/slider/Shtaketnik/shtaketnik3.jpg" alt=""></div>
-            <div href="http://placehold.it/2000x1000"><img src="@/assets/images/slider/Shtaketnik/shtaketnik4.jpg" alt=""></div>
-            <div href="http://placehold.it/2000x1000"><img src="@/assets/images/slider/Shtaketnik/shtaketnik5.jpg" alt=""></div>
-            <div href="http://placehold.it/2000x1000"><img src="@/assets/images/slider/Shtaketnik/shtaketnik6.jpg" alt=""></div>
-            <div href="http://placehold.it/2000x1000"><img src="@/assets/images/slider/Shtaketnik/shtaketnik7.jpg" alt=""></div>
-            <div href="http://placehold.it/2000x1000"><img src="@/assets/images/slider/Shtaketnik/shtaketnik1.jpg" alt=""></div>
+            <div href="http://placehold.it/2000x1000"><img src="@/assets/images/slider/Shtaketnik/shtaketnik8.webp" alt=""></div>
+            <div href="http://placehold.it/2000x1000"><img src="@/assets/images/slider/Shtaketnik/shtaketnik2.webp" alt=""></div>
+            <div href="http://placehold.it/2000x1000"><img src="@/assets/images/slider/Shtaketnik/shtaketnik3.webp" alt=""></div>
+            <div href="http://placehold.it/2000x1000"><img src="@/assets/images/slider/Shtaketnik/shtaketnik4.webp" alt=""></div>
+            <div href="http://placehold.it/2000x1000"><img src="@/assets/images/slider/Shtaketnik/shtaketnik5.webp" alt=""></div>
+            <div href="http://placehold.it/2000x1000"><img src="@/assets/images/slider/Shtaketnik/shtaketnik6.webp" alt=""></div>
+            <div href="http://placehold.it/2000x1000"><img src="@/assets/images/slider/Shtaketnik/shtaketnik7.webp" alt=""></div>
+            <div href="http://placehold.it/2000x1000"><img src="@/assets/images/slider/Shtaketnik/shtaketnik1.webp" alt=""></div>
         </slick>
     </div>
 </template>

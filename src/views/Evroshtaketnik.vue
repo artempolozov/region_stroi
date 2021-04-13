@@ -18,7 +18,7 @@
             </div>
             <div class="box-right">
                 <div class="text-right2">Цена: </div>
-                <div class="text-right">м/п от 1290 руб.</div>
+                <div class="text-right">м/п от 1490 руб.</div>
             </div>
         </div>
 
@@ -33,8 +33,8 @@
             </div>
             <div class="box-right">
                 <div class="text-right2">Цена: </div>
-                <div class="text-right">м/п от 1440 руб.</div>
-                <strike class="text-down">м/п от 1490 руб.</strike>
+                <div class="text-right">м/п от 1640 руб.</div>
+                <strike class="text-down">м/п от 1690 руб.</strike>
             </div>
         </div>
 
@@ -49,7 +49,7 @@
             </div>
             <div class="box-right">
                 <div class="text-right2">Цена: </div>
-                <div class="text-right">м/п от 1590 руб.</div>
+                <div class="text-right">м/п от 1790 руб.</div>
             </div>
         </div>
     </div>
@@ -104,13 +104,13 @@
         background-position: center !important;
     }
     #box-1 .box-left {
-        background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(~@/assets/images/evroshtak3.jpeg);
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(~@/assets/images/evroshtak3.webp);
     }
     #box-2 .box-left {
-        background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(~@/assets/images/evroshtak2.jpg);
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(~@/assets/images/evroshtak2.webp);
     }
     #box-3 .box-left {
-        background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(~@/assets/images/evroshtak1.jpg);
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(~@/assets/images/evroshtak1.webp);
     }
     .caption {
         width: 100%;
@@ -150,7 +150,7 @@
     .another-block1 {
         height: 180px;
         background-color: black;
-        background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(~@/assets/images/shtakettop.jpg);
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(~@/assets/images/shtakettop.webp);
         background-size: cover;
         background-position: center;
         text-align: center;

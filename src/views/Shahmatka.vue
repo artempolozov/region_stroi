@@ -18,7 +18,7 @@
             </div>
             <div class="box-right">
                 <div class="text-right2">Цена: </div>
-                <div class="text-right">м/п от 1890 руб.</div>
+                <div class="text-right">м/п от 2090 руб.</div>
             </div>
         </div>
 
@@ -33,7 +33,7 @@
             </div>
             <div class="box-right">
                 <div class="text-right2">Цена: </div>
-                <div class="text-right">м/п от 2190 руб.</div>
+                <div class="text-right">м/п от 2390 руб.</div>
             </div>
         </div>
 
@@ -48,7 +48,7 @@
             </div>
             <div class="box-right">
                 <div class="text-right2">Цена: </div>
-                <div class="text-right">м/п от 2290 руб.</div>
+                <div class="text-right">м/п от 2490 руб.</div>
             </div>
         </div>
     </div>
@@ -103,13 +103,13 @@
         background-position: center !important;
     }
     #box-1 .box-left {
-        background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(~@/assets/images/shahmat1.jpg);
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(~@/assets/images/shahmat1.webp);
     }
     #box-2 .box-left {
-        background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(~@/assets/images/shahmat3.jpg);
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(~@/assets/images/shahmat3.webp);
     }
     #box-3 .box-left {
-        background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(~@/assets/images/shahmat2.jpg);
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(~@/assets/images/shahmat2.webp);
     }
     .caption {
         width: 100%;
@@ -143,7 +143,7 @@
     .another-block1 {
         height: 180px;
         background-color: black;
-        background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(~@/assets/images/shahmattop.jpg);
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(~@/assets/images/shahmattop.webp);
         background-size: cover;
         background-position: center;
         text-align: center;

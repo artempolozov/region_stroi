@@ -14,17 +14,17 @@
 
                     <div class="form-group">
                         <label class="form-label">Ваше имя:</label>
-                        <input name="name" type="text" class="form-input" placeholder="Введите имя" required>
+                        <input name="Имя" type="text" class="form-input" placeholder="Введите имя" required>
                     </div>
 
                     <div class="form-group">
                         <label class="form-label">Ваш телефон:</label>
-                        <input name="number" type="text" class="form-input" placeholder="Введите телефон" required>
+                        <input name="Номер телефона" type="text" class="form-input" placeholder="Введите телефон" required>
                     </div>
 
                     <div class="form-group">
                         <label for="services" class="form-label">Выберите услугу: </label>
-                        <select name="services" class="form-input">
+                        <select name="Услуга" class="form-input">
                             <option value="Профлист">Забор из профлиста</option>
                             <option value="Евроштакетник">Забор из евроштакетника</option>
                             <option value="Сетка-рабица">Забор из сетки-рабица</option>
@@ -36,7 +36,7 @@
 
                     <div class="form-group">
                         <label class="form-label">Сообщение:</label>
-                        <textarea name="message" class="form-message" placeholder="Введите дополнительную информацию"></textarea>
+                        <textarea name="Сообщение" class="form-message" placeholder="Введите дополнительную информацию"></textarea>
                     </div>
 
                     <input type="submit" id="my-form-button" class="form-submit" value="Отправить заявку">
@@ -172,7 +172,7 @@ export default {
         align-items: center;
         background-size: cover;
         background-position: center;
-        /*background-image: url(@/assets/images/bg-contact.jpg);*/
+        background-image: url(~@/assets/images/bg-contact.webp);
         border-top-left-radius: 3px;
         border-top-right-radius: 3px;
     }
@@ -258,9 +258,10 @@ export default {
         background: transparent;
     }
     .form-status{
-        font-size: 15px;
+        font-size: 17px;
         font-family: HelveticaNeueCyr;
-        color: rgb(78, 78, 78);
+        color: green;
+        text-align: center;
     }
     .overlay::-webkit-scrollbar {
         display: none; /* Safari and Chrome */

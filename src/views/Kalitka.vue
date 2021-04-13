@@ -18,8 +18,8 @@
                 </div>
                 <div class="box-right">
                     <div class="text-right2">Цена: </div>
-                    <div class="text-right">от 3490 руб.</div>
-                    <strike class="text-down">от 3990 руб.</strike>
+                    <div class="text-right">от 5490 руб.</div>
+                    <strike class="text-down">от 5990 руб.</strike>
                 </div>
             </div>
 
@@ -34,7 +34,7 @@
                 </div>
                 <div class="box-right">
                     <div class="text-right2">Цена: </div>
-                    <div class="text-right">от 4990 руб.</div>
+                    <div class="text-right">от 6990 руб.</div>
                 </div>
             </div>
 
@@ -49,7 +49,7 @@
                 </div>
                 <div class="box-right">
                     <div class="text-right2">Цена: </div>
-                    <div class="text-right">от 4990 руб.</div>
+                    <div class="text-right">от 6990 руб.</div>
                 </div>
             </div>
 
@@ -64,7 +64,7 @@
                 </div>
                 <div class="box-right">
                     <div class="text-right2">Цена: </div>
-                    <div class="text-right">от 5490 руб.</div>
+                    <div class="text-right">от 7490 руб.</div>
                 </div>
             </div>
         </div>
@@ -148,16 +148,16 @@
         background-position: center !important;
     }
     #box-1 .box-left {
-        background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(~@/assets/images/kalitkarabica.jpg);
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(~@/assets/images/kalitkarabica.webp);
     }
     #box-2 .box-left {
-        background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(~@/assets/images/kalitkaproflist.jpg);
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(~@/assets/images/kalitkaproflist.webp);
     }
     #box-3 .box-left {
-        background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(~@/assets/images/kalitka3d.jpg);
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(~@/assets/images/kalitka3d.webp);
     }
     #box-4 .box-left {
-        background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(~@/assets/images/kalitkashtak.jpg);
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(~@/assets/images/kalitkashtak.webp);
     }
     .caption {
         width: 100%;
@@ -197,7 +197,7 @@
     .another-block1 {
         height: 180px;
         background-color: black;
-        background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(~@/assets/images/kalitkatop.jpg);
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(~@/assets/images/kalitkatop.webp);
         background-size: cover;
         background-position: center;
         text-align: center;

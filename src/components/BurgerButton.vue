@@ -35,9 +35,9 @@
         height: 24px;
         background-size: cover;
         background-position: center;
-        /*background-image: url(@/assets/icon/menu.svg);*/
+        background-image: url(~@/assets/menu.svg);
     }
-    /*.burger-button.active {
-        background-image: url(@/assets/close.svg);
-    }*/
+    .burger-button.active {
+        background-image: url(~@/assets/close.svg);
+    }
 </style>

@@ -18,7 +18,7 @@
             </div>
             <div class="box-right">
                 <div class="text-right2">Цена: </div>
-                <div class="text-right">м/п от 1090 руб.</div>
+                <div class="text-right">м/п от 1290 руб.</div>
             </div>
         </div>
 
@@ -33,7 +33,7 @@
             </div>
             <div class="box-right">
                 <div class="text-right2">Цена: </div>
-                <div class="text-right">м/п от 1240 руб.</div>
+                <div class="text-right">м/п от 1440 руб.</div>
             </div>
         </div>
 
@@ -48,7 +48,7 @@
             </div>
             <div class="box-right">
                 <div class="text-right2">Цена: </div>
-                <div class="text-right">м/п от 1290 руб.</div>
+                <div class="text-right">м/п от 1490 руб.</div>
             </div>
         </div>
     </div>
@@ -103,13 +103,13 @@
         background-position: center !important;
     }
     #box-1 .box-left {
-        background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(~@/assets/images/cink1.png);
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(~@/assets/images/cink1.webp);
     }
     #box-2 .box-left {
-        background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(~@/assets/images/cink2.jpg);
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(~@/assets/images/cink2.webp);
     }
     #box-3 .box-left {
-        background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(~@/assets/images/cink3.jpg);
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(~@/assets/images/cink3.webp);
     }
     .caption {
         width: 100%;
@@ -143,7 +143,7 @@
     .another-block1 {
         height: 180px;
         background-color: black;
-        background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(~@/assets/images/cinktop.jpg);
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(~@/assets/images/cinktop.webp);
         background-size: cover;
         background-position: center;
         text-align: center;

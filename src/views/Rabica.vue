@@ -18,7 +18,7 @@
                 </div>
                 <div class="box-right">
                     <div class="text-right2">Цена: </div>
-                    <div class="text-right">м/п от 490 руб.</div>
+                    <div class="text-right">м/п от 690 руб.</div>
                 </div>
             </div>
 
@@ -28,12 +28,12 @@
                     <pre class="text-left">Высота забора: 1.8м
 (столб: 40х40 / 50х50, ячейка: 50х50мм)</pre>
                     <div class="text-attention">Комплектация и цвет  забора оговаривается</div>
-                    <div class="text-attention"> индивидуально с заказчиком! </div>
+                    <div class="text-attention">индивидуально с заказчиком!</div>
                     </div>
                 </div>
                 <div class="box-right">
                     <div class="text-right2">Цена: </div>
-                    <div class="text-right">м/п от 590 руб.</div>
+                    <div class="text-right">м/п от 790 руб.</div>
                 </div>
             </div>
 
@@ -48,7 +48,7 @@
                 </div>
                 <div class="box-right">
                     <div class="text-right2">Цена: </div>
-                    <div class="text-right">м/п от 610 руб.</div>
+                    <div class="text-right">м/п от 810 руб.</div>
                 </div>
             </div>
         </div>
@@ -132,13 +132,13 @@
         background-position: center !important;
     }
     #box-1 .box-left {
-        background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(~@/assets/images/rabica1.jpg);
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(~@/assets/images/rabica1.webp);
     }
     #box-2 .box-left {
-        background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(~@/assets/images/rabica2.jpg);
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(~@/assets/images/rabica2.webp);
     }
     #box-3 .box-left {
-        background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(~@/assets/images/rabica3.jpg);
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(~@/assets/images/rabica3.webp);
     }
     .caption {
         width: 100%;
@@ -172,7 +172,7 @@
     .another-block1 {
         height: 180px;
         background-color: black;
-        background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(~@/assets/images/rabicatop.jpg);
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(~@/assets/images/rabicatop.webp);
         background-size: cover;
         background-position: center;
         text-align: center;

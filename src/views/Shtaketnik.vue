@@ -11,11 +11,11 @@
 
         <div class="row1">
             <div class="tile1 common1" v-on:click="goToPage('evroshtaketnik')">
-                <img src="@/assets/images/shtaket1.jpg">
+                <img src="@/assets/images/shtaket1.webp">
                 <span class="title1">Евроштакетник</span>
             </div>
             <div class="tile1 common1" v-on:click="goToPage('shahmatka')">
-                <img src="@/assets/images/shahmat.jpg">
+                <img src="@/assets/images/shahmat.webp">
                 <span class="title1">Евроштакетник-шахматка</span>
             </div>
         </div>
@@ -102,7 +102,7 @@
     .another-block1 {
         height: 180px;
         background-color: black;
-        background: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(~@/assets/images/shahmattop2.png);
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(~@/assets/images/shahmattop2.webp);
         background-size: cover;
         background-position: center;
         text-align: center;

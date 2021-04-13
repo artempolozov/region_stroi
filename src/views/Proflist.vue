@@ -9,22 +9,22 @@
         <span class="down-text">ВЫБЕРИТЕ ТИП ПОКРЫТИЯ:</span>
         <div class="row1">
             <div class="tile1 common1" v-on:click="goToPage('ocinkovanny')">
-                <img src="@/assets/images/ocink.jpg">
+                <img src="@/assets/images/ocink.webp">
                 <span class="title1">Оцинкованный профлист</span>
             </div>
             <div class="tile1 common1" v-on:click="goToPage('polimer')">
-                <img src="@/assets/images/polimer.jpg">
+                <img src="@/assets/images/polimer.webp">
                 <span class="title1">Полимерный профлист</span>
             </div>
         </div>
 
         <div class="row2">
             <div class="tile1 common1" v-on:click="goToPage('dvuhstoronny')">
-                <img src="@/assets/images/polimer2.jpg">
+                <img src="@/assets/images/polimer2.webp">
                 <span class="title1">Двухсторонний полимер</span>
             </div>
             <div class="tile1 common1" v-on:click="goToPage('dekorativny')">
-                <img src="@/assets/images/dekor.jpg">
+                <img src="@/assets/images/dekor.webp">
                 <span class="title1">Декоративный профлист</span>
             </div>
         </div>
@@ -115,7 +115,7 @@ export default {
     .another-block1 {
         height: 180px;
         background-color: black;
-        background: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(~@/assets/images/proftop.png);
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(~@/assets/images/proftop.webp);
         background-size: cover;
         background-position: center;
         text-align: center;

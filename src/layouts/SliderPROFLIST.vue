@@ -1,16 +1,16 @@
 <template>
     <div class="slider-container">
         <slick ref="slick" :options="slickOptions">
-            <div href="http://placehold.it/2000x1000"><img src="@/assets/images/slider/Proflist/proflist1.jpg" alt=""></div>
-            <div href="http://placehold.it/2000x1000"><img src="@/assets/images/slider/Proflist/proflist2.jpg" alt=""></div>
-            <div href="http://placehold.it/2000x1000"><img src="@/assets/images/slider/Proflist/proflist3.jpg" alt=""></div>
-            <div href="http://placehold.it/2000x1000"><img src="@/assets/images/slider/Proflist/proflist5.jpg" alt=""></div>
-            <div href="http://placehold.it/2000x1000"><img src="@/assets/images/slider/Proflist/proflist6.jpg" alt=""></div>
-            <div href="http://placehold.it/2000x1000"><img src="@/assets/images/slider/Proflist/proflist7.jpg" alt=""></div>
-            <div href="http://placehold.it/2000x1000"><img src="@/assets/images/slider/Proflist/proflist8.jpg" alt=""></div>
-            <div href="http://placehold.it/2000x1000"><img src="@/assets/images/slider/Proflist/proflist9.jpg" alt=""></div>
-            <div href="http://placehold.it/2000x1000"><img src="@/assets/images/slider/Proflist/proflist10.jpg" alt=""></div>
-            <div href="http://placehold.it/2000x1000"><img src="@/assets/images/slider/Proflist/proflist11.jpg" alt=""></div>
+            <div href="http://placehold.it/2000x1000"><img src="@/assets/images/slider/Proflist/proflist1.webp" alt=""></div>
+            <div href="http://placehold.it/2000x1000"><img src="@/assets/images/slider/Proflist/proflist2.webp" alt=""></div>
+            <div href="http://placehold.it/2000x1000"><img src="@/assets/images/slider/Proflist/proflist3.webp" alt=""></div>
+            <div href="http://placehold.it/2000x1000"><img src="@/assets/images/slider/Proflist/proflist5.webp" alt=""></div>
+            <div href="http://placehold.it/2000x1000"><img src="@/assets/images/slider/Proflist/proflist6.webp" alt=""></div>
+            <div href="http://placehold.it/2000x1000"><img src="@/assets/images/slider/Proflist/proflist7.webp" alt=""></div>
+            <div href="http://placehold.it/2000x1000"><img src="@/assets/images/slider/Proflist/proflist8.webp" alt=""></div>
+            <div href="http://placehold.it/2000x1000"><img src="@/assets/images/slider/Proflist/proflist9.webp" alt=""></div>
+            <div href="http://placehold.it/2000x1000"><img src="@/assets/images/slider/Proflist/proflist10.webp" alt=""></div>
+            <div href="http://placehold.it/2000x1000"><img src="@/assets/images/slider/Proflist/proflist11.webp" alt=""></div>
         </slick>
     </div>
 </template>

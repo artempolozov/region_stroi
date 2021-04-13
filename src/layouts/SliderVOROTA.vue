@@ -1,12 +1,12 @@
 <template>
     <div class="slider-container">
         <slick ref="slick" :options="slickOptions">
-            <div href="http://placehold.it/2000x1000"><img src="@/assets/images/slider/Vorota/vorota1.jpg" alt=""></div>
-            <div href="http://placehold.it/2000x1000"><img src="@/assets/images/slider/Vorota/vorota2.jpg" alt=""></div>
-            <div href="http://placehold.it/2000x1000"><img src="@/assets/images/slider/Vorota/vorota3.jpg" alt=""></div>
-            <div href="http://placehold.it/2000x1000"><img src="@/assets/images/slider/Vorota/vorota4.jpeg" alt=""></div>
-            <div href="http://placehold.it/2000x1000"><img src="@/assets/images/slider/Vorota/vorota5.jpg" alt=""></div>
-            <div href="http://placehold.it/2000x1000"><img src="@/assets/images/slider/Vorota/vorota6.jpg" alt=""></div>
+            <div href="http://placehold.it/2000x1000"><img src="@/assets/images/slider/Vorota/vorota1.webp" alt=""></div>
+            <div href="http://placehold.it/2000x1000"><img src="@/assets/images/slider/Vorota/vorota2.webp" alt=""></div>
+            <div href="http://placehold.it/2000x1000"><img src="@/assets/images/slider/Vorota/vorota3.webp" alt=""></div>
+            <div href="http://placehold.it/2000x1000"><img src="@/assets/images/slider/Vorota/vorota4.webp" alt=""></div>
+            <div href="http://placehold.it/2000x1000"><img src="@/assets/images/slider/Vorota/vorota5.webp" alt=""></div>
+            <div href="http://placehold.it/2000x1000"><img src="@/assets/images/slider/Vorota/vorota6.webp" alt=""></div>
         </slick>
     </div>
 </template>

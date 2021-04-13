@@ -1,11 +1,11 @@
 <template>
     <div class="slider-container">
         <slick ref="slick" :options="slickOptions">
-            <div href="http://placehold.it/2000x1000"><img src="@/assets/images/slider/Kalitki/kalitka1.jpg" alt=""></div>
-            <div href="http://placehold.it/2000x1000"><img src="@/assets/images/slider/Kalitki/kalitka2.jpeg" alt=""></div>
-            <div href="http://placehold.it/2000x1000"><img src="@/assets/images/slider/Kalitki/kalitka3.jpeg" alt=""></div>
-            <div href="http://placehold.it/2000x1000"><img src="@/assets/images/slider/Kalitki/kalitka4.jpg" alt=""></div>
-            <div href="http://placehold.it/2000x1000"><img src="@/assets/images/slider/Kalitki/kalitka5.jpg" alt=""></div>
+            <div href="http://placehold.it/2000x1000"><img src="@/assets/images/slider/Kalitki/kalitka1.webp" alt=""></div>
+            <div href="http://placehold.it/2000x1000"><img src="@/assets/images/slider/Kalitki/kalitka2.webp" alt=""></div>
+            <div href="http://placehold.it/2000x1000"><img src="@/assets/images/slider/Kalitki/kalitka3.webp" alt=""></div>
+            <div href="http://placehold.it/2000x1000"><img src="@/assets/images/slider/Kalitki/kalitka4.webp" alt=""></div>
+            <div href="http://placehold.it/2000x1000"><img src="@/assets/images/slider/Kalitki/kalitka5.webp" alt=""></div>
         </slick>
     </div>
 </template>

@@ -2,35 +2,35 @@
     <div class="views--home">
         <div class="card-list">
             <div class="tile common" v-on:click="goToPage('proflist')">
-                <img src="@/assets/images/proflist.jpg">
+                <img src="@/assets/images/proflist.webp">
                 <span class="title">Забор из профлиста</span>
                 <span class="description">Цинк / полимерный односторонний / Полимерный двухсторонний
                 </span>
             </div>
             <div class="tile common" v-on:click="goToPage('shtaketnik')">
-                <img src="@/assets/images/shtaket.jpg">
+                <img src="@/assets/images/shtaket.webp">
                 <span class="title">Забор из ЕВРОШТАКЕТНИКА</span>
                 <span class="description">Евроштакетник / Евроштакетник-шахматка</span>
             </div>
             <div class="tile common" v-on:click="goToPage('rabica')">
-                <img src="@/assets/images/rabica.jpg">
+                <img src="@/assets/images/rabica.webp">
                 <span class="title">Забор из Сетки рабица</span>
                 <span class="description">Цвет: Цинк / зеленый</span>
             </div>
 
             <div class="tile common" v-on:click="goToPage('3D')">
-                <img src="@/assets/images/3D.jpg">
+                <img src="@/assets/images/3D.webp">
                 <span class="title">Забор из 3D-сетки</span>
                 <span class="description">Цвет: Зеленый</span>
             </div>
             <div class="tile common" v-on:click="goToPage('vorota')">
-                <img src="@/assets/images/vorota.jpg">
+                <img src="@/assets/images/vorota.webp">
                 <span class="title">Установка ворот</span>
                 <span class="description">Откатные / распашные / механические / Автоматические
                 </span>
             </div>
             <div class="tile common" v-on:click="goToPage('kalitka')">
-                <img src="@/assets/images/kalitka.jpg">
+                <img src="@/assets/images/kalitka.webp">
                 <span class="title">Установка калитки</span>
                 <span class="description">Калитка с врезным замком</span>
             </div>

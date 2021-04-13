@@ -5,7 +5,6 @@
         </div>
         <div class="info">
             <div class="call-number"><a href="tel:+79205352806">+7 920 535-28-06</a></div>
-            <div>+7 952 591-33-70</div>
             <div>Без выходных с 9:00 до 21:00</div>
         </div>
     </div>
@@ -22,6 +21,8 @@
         border-radius: 30px;
     }
     .contacts {
+        display: flex;
+        align-items: center;
         margin: 0px 20px;
     }
     .icon {
@@ -33,6 +34,7 @@
     }
     .icon img {
         width: 40px;
+        margin-right: 5px;
     }
     .info {
         text-align: left;
@@ -40,7 +42,7 @@
         display: inline-block;
         font-weight: bold;
     }
-    .info > div:nth-of-type(3) {
+    .info > div:nth-of-type(2) {
         color: grey;
         font-size: 10.5px;
         margin-top: 3px;

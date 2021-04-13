@@ -18,7 +18,7 @@
                 </div>
                 <div class="box-right">
                     <div class="text-right2">Цена: </div>
-                    <div class="text-right">от 49990 руб.</div>
+                    <div class="text-right">от 59990 руб.</div>
                 </div>
             </div>
 
@@ -33,7 +33,7 @@
                 </div>
                 <div class="box-right">
                     <div class="text-right2">Цена: </div>
-                    <div class="text-right">от 59990 руб.</div>
+                    <div class="text-right">от 69990 руб.</div>
                 </div>
             </div>
         </div>
@@ -88,10 +88,10 @@
         background-position: center !important;
     }
     #box-1 .box-left {
-        background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(~@/assets/images/otkat1.jpg);
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(~@/assets/images/otkat1.webp);
     }
     #box-2 .box-left {
-        background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(~@/assets/images/otkat2.jpg);
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(~@/assets/images/otkat2.webp);
     }
     .caption {
         width: 100%;
@@ -125,7 +125,7 @@
     .another-block1 {
         height: 180px;
         background-color: black;
-        background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(~@/assets/images/otkattop.jpg);
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(~@/assets/images/otkattop.webp);
         background-size: cover;
         background-position: center;
         text-align: center;
