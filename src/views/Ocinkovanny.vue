@@ -18,7 +18,7 @@
             </div>
             <div class="box-right">
                 <div class="text-right2">Цена: </div>
-                <div class="text-right">м/п от 1290 руб.</div>
+                <div class="text-right">м/п от 1490 руб.</div>
             </div>
         </div>
 
@@ -33,7 +33,7 @@
             </div>
             <div class="box-right">
                 <div class="text-right2">Цена: </div>
-                <div class="text-right">м/п от 1440 руб.</div>
+                <div class="text-right">м/п от 1640 руб.</div>
             </div>
         </div>
 
@@ -48,7 +48,7 @@
             </div>
             <div class="box-right">
                 <div class="text-right2">Цена: </div>
-                <div class="text-right">м/п от 1490 руб.</div>
+                <div class="text-right">м/п от 1690 руб.</div>
             </div>
         </div>
     </div>

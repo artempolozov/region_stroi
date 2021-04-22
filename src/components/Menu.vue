@@ -10,8 +10,8 @@
                     <ul class="sub-menu">
                         <li><a href="#" v-on:click="goToPage('proflist')">Профлист</a></li>
                         <li><a href="#" v-on:click="goToPage('shtaketnik')">Евроштакетник</a></li>
-                        <li><a href="#" v-on:click="goToPage('rabica')">Сетка-рабица</a></li>
-                        <li><a href="#" v-on:click="goToPage('3D')">3D-сетка</a></li>
+                        <li><a href="#" v-on:click="goToPage('rabica')">Сетка рабица</a></li>
+                        <li><a href="#" v-on:click="goToPage('3D')">3д сетка</a></li>
                     </ul>
                 </li>
 

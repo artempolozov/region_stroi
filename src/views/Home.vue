@@ -20,7 +20,7 @@
 
             <div class="tile common" v-on:click="goToPage('3D')">
                 <img src="@/assets/images/3D.webp">
-                <span class="title">Забор из 3D-сетки</span>
+                <span class="title">Забор из 3д сетки</span>
                 <span class="description">Цвет: Зеленый</span>
             </div>
             <div class="tile common" v-on:click="goToPage('vorota')">

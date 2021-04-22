@@ -1,8 +1,8 @@
 <template>
     <div>
         <div class="another-block1">
-            <div class="text-right3">Сетка-рабица</div>
-            <div class="text-right4">Забор из сетки-рабица является самым популярным типом ограждения,</div>
+            <div class="text-right3">Сетка рабица</div>
+            <div class="text-right4">Забор из сетки рабица является самым популярным типом ограждения,</div>
             <div class="text-right4">благодаря своему удобству и практичности.</div>
         </div>
 
@@ -18,7 +18,7 @@
                 </div>
                 <div class="box-right">
                     <div class="text-right2">Цена: </div>
-                    <div class="text-right">м/п от 690 руб.</div>
+                    <div class="text-right">м/п от 790 руб.</div>
                 </div>
             </div>
 
@@ -33,7 +33,7 @@
                 </div>
                 <div class="box-right">
                     <div class="text-right2">Цена: </div>
-                    <div class="text-right">м/п от 790 руб.</div>
+                    <div class="text-right">м/п от 890 руб.</div>
                 </div>
             </div>
 
@@ -48,7 +48,7 @@
                 </div>
                 <div class="box-right">
                     <div class="text-right2">Цена: </div>
-                    <div class="text-right">м/п от 810 руб.</div>
+                    <div class="text-right">м/п от 910 руб.</div>
                 </div>
             </div>
         </div>

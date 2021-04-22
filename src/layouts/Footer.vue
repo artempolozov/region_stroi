@@ -13,7 +13,7 @@
             </div>
             <div class="row">
                 <div>
-                    <div class="address">Липецк. Липецкая область 2013-2020г.</div>
+                    <div class="address">Липецк. Липецкая область 2013-2021г.</div>
                     <div class="contact">Вы можете связаться с нами и оформить заказ на нашу почту: zabor-region@mail.ru</div>
                 </div>
             </div>

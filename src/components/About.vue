@@ -58,7 +58,7 @@
         </pre>
         </div>
         <div class="order">
-            <div @click="toggleForm" class="order-button">Заказать замер</div>
+            <div @click="toggleForm" class="order-button">Рассчитать стоимость</div>
             <pre class="order-text">
         Закажите бесплатный расчет замера вашего участка
         и узнайте стоимость своего ограждения.
@@ -132,8 +132,9 @@
     .order-button {
         color: white;
         background-color: rgb(226, 28, 33);
-        height: 45px;
-        width: 165px;
+        height: auto;
+        width: auto;
+        padding: 15px;
         border-radius: 15px;
         font-weight: bold;
         font-size: 14px;

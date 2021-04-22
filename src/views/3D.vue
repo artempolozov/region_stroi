@@ -1,7 +1,7 @@
 <template>
     <div>
         <div class="another-block1">
-            <div class="text-right3">3D-Сетка</div>
+            <div class="text-right3">3д сетка</div>
             <div class="text-right4">Современный тип заборов с дополнительным изгибом</div>
             <div class="text-right4">для увеличения прочности и надежности.</div>
         </div>
@@ -18,7 +18,7 @@
                 </div>
                 <div class="box-right">
                     <div class="text-right2">Цена: </div>
-                    <div class="text-right">м/п от 1490 руб.</div>
+                    <div class="text-right">м/п от 1790 руб.</div>
                 </div>
             </div>
 
@@ -33,7 +33,7 @@
                 </div>
                 <div class="box-right">
                     <div class="text-right2">Цена: </div>
-                    <div class="text-right">м/п от 1650 руб.</div>
+                    <div class="text-right">м/п от 1950 руб.</div>
                 </div>
             </div>
         </div>

@@ -7,7 +7,7 @@
             </div>
 
             <div class="content-wrapper">
-                <span>Заявка на замер</span>
+                <span>Расчет стоимости и замер</span>
             </div>
 
                 <form id="feedback-form" action="https://formspree.io/xgelwgrd" method="POST" class="form-wrapper">

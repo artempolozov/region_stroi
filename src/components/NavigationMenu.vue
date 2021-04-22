@@ -5,8 +5,8 @@
             <div class="dropdown-content">
                 <div class="dropcnt" v-on:click="goToPage('proflist')"> Профлист </div>
                 <div class="dropcnt" v-on:click="goToPage('shtaketnik')">Евроштакетник</div>
-                <div class="dropcnt" v-on:click="goToPage('rabica')">Сетка-рабица</div>
-                <div class="dropcnt" v-on:click="goToPage('3D')">3D-сетка</div>
+                <div class="dropcnt" v-on:click="goToPage('rabica')">Сетка рабица</div>
+                <div class="dropcnt" v-on:click="goToPage('3D')">3д сетка</div>
             </div>
         </li>
         <li class="dropdown">

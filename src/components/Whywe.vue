@@ -8,9 +8,9 @@
 
     <div class="block">
         <div class="block1">
-            <span class="text1">7</span>
+            <span class="text1">8</span>
             <span class="text2">ЛЕТ</span>
-            <span class="b1">Более 7 лет опыта<br>в сфере строительных услуг!</span>
+            <span class="b1">Более 8 лет опыта<br>в сфере строительных услуг!</span>
         </div>
 
         <div class="block2">
